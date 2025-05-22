@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Launch faster. Look sharper."
+  subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
+  customers={[
+    {
+      name: "Samantha Lee",
+      position: "Co-founder",
+      imageSrc: "/generated/image-a-confident-female-founder-working-at-he.webp"
+    },
+    {
+      name: "Jason Miller",
+      position: "Founder & CEO",
+      imageSrc: "/generated/image-a-male-founder-dressed-in-business-casua.webp"
+    },
+    {
+      name: "Priya Patel",
+      position: "Product Manager",
+      imageSrc: "/generated/image-a-female-product-manager-in-a-creative-w.webp"
+    },
+    {
+      name: "Mark Chen",
+      position: "CTO",
+      imageSrc: "/generated/image-a-male-cto-sitting-comfortably-in-a-mode.webp"
+    },
+    {
+      name: "Alexis Rivera",
+      position: "Marketing Lead",
+      imageSrc: "/generated/image-a-female-marketing-lead-exuding-an-innov.webp"
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/loom.com',
+		'https://logo.clearbit.com/pitch.com',
+		'https://logo.clearbit.com/zapier.com',
+		'https://logo.clearbit.com/shogun.com'
+	]}
+/>
 
 <Summary
 	generating
