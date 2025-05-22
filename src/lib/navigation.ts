@@ -64,45 +64,29 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "Healthcare",
-				href: "/use-cases/healthcare",
-				image:
-					"https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?q=80&w=1920&auto=format&fit=crop",
-
-				description:
-					"Innovative solutions for patient care, delivering advanced analytics to improve diagnostics, enhancing personalized treatment plans through real‑time data insights, and seamlessly integrating with existing healthcare systems to drive better outcomes and streamline clinical workflows",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Finance",
-				href: "/use-cases/finance",
-				image:
-					"https://images.unsplash.com/photo-1638913662180-afc4334cf422?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Streamlining operations and compliance across financial services by automating regulatory reporting, strengthening risk management, integrating advanced real‑time analytics, and ensuring robust audit trails for enhanced governance and operational efficiency",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Technology",
-				href: "/use-cases/technology",
-				image:
-					"https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description:
-					"Cutting-edge tools for tech companies, offering scalable cloud-based platforms, AI-driven development frameworks, secure collaboration environments, and streamlined deployment pipelines to accelerate innovation and deliver market-leading solutions",
-				showInNav: true,
-				showInFooter: true
-			},
-			{
-				label: "Education",
-				href: "/use-cases/education",
-				image:
-					"https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-				description: "Enhancing learning experiences",
-				showInNav: true,
-				showInFooter: true
-			}
+        label: "Find early traction",
+        href: "/use-cases/product-market-fit",
+        image: "/generated/image-a-diverse-startup-founder-team-collabora.webp",
+        description: "Launch messaging and landing pages to validate your idea and get real signal fast.",
+        showInNav: true,
+        showInFooter: true
+      },
+      {
+        label: "Raise your next round",
+        href: "/use-cases/fundraising",
+        image: "/generated/image-a-confident-startup-founder-delivering-a.webp",
+        description: "Build investor decks that tell a sharp story — clearly, visually and confidently.",
+        showInNav: true,
+        showInFooter: true
+      },
+      {
+        label: "Attract great talent",
+        href: "/use-cases/team-recruiting",
+        image: "/generated/image-a-small-tech-team-welcoming-new-hires-in.webp",
+        description: "Design branded job pages that help you pitch your mission and convert top candidates.",
+        showInNav: true,
+        showInFooter: true
+      }
 		]
 	},
 	{

@@ -35,139 +35,164 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Start free. Pricing for every founder and team",
+		subtitle = "Upgrade when you're ready to move quicker and grow",
+		tierNames = ["Solo", "Team", "Company"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
-			}
-		],
+	{
+		name: "Websites",
+		tiers: {
+			Solo: "2",
+			Team: "Unlimited",
+			Company: "Unlimited"
+		}
+	},
+	{
+		name: "Pitch decks",
+		tiers: {
+			Solo: "2",
+			Team: "Unlimited",
+			Company: "Unlimited"
+		}
+	},
+	{
+		name: "Ads & landing pages",
+		tiers: {
+			Solo: "Basic templates",
+			Team: "AI-generated variants",
+			Company: "Advanced AI campaigns"
+		}
+	},
+	{
+		name: "Users",
+		tiers: {
+			Solo: "1",
+			Team: "5",
+			Company: "Unlimited"
+		}
+	},
+	{
+		name: "Team collaboration",
+		tiers: {
+			Solo: false,
+			Team: "Real-time & permissions",
+			Company: "Advanced roles & workflows"
+		}
+	},
+	{
+		name: "AI workflows",
+		tiers: {
+			Solo: "Website/one-pager generator",
+			Team: "Full decks, ads, landing iterations",
+			Company: "Custom models & content"
+		}
+	},
+	{
+		name: "Export",
+		tiers: {
+			Solo: "Download & share links",
+			Team: "PDF/HTML/Notion",
+			Company: "All + white-label links"
+		}
+	},
+	{
+		name: "Branding",
+		tiers: {
+			Solo: "Uncommon branding",
+			Team: "Custom fonts, logos, colors",
+			Company: "Design tokens, full system"
+		}
+	},
+	{
+		name: "Integrations",
+		tiers: {
+			Solo: "Notion, Figma",
+			Team: "Webflow, Google Slides, Notion, Figma",
+			Company: "Custom pipelines, API access"
+		}
+	},
+	{
+		name: "Support",
+		tiers: {
+			Solo: "Community",
+			Team: "Priority email",
+			Company: "Dedicated manager + Slack"
+		}
+	},
+	{
+		name: "Onboarding",
+		tiers: {
+			Solo: "Self-serve",
+			Team: "Live onboarding call",
+			Company: "Dedicated setup & training"
+		}
+	}
+],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
-			}
-		]
+	{
+		name: "Solo",
+		monthlyPrice: 49,
+		yearlyPrice: 39, // $39/mo paid yearly
+		description: "For solo founders validating ideas fast.",
+		features: [
+			"Up to 2 websites & decks",
+			"Basic templates for ads & pages",
+			"Website and deck AI generator",
+			"Uncommon branding",
+			"Notion & Figma integrations",
+			"Community support",
+			"Self-serve onboarding"
+		],
+		cta: {
+			label: "Try free",
+			href: "/signup?plan=solo"
+		}
+	},
+	{
+		name: "Team",
+		monthlyPrice: 149,
+		yearlyPrice: 119, // $119/mo paid yearly
+		description: "For small teams launching and growing.",
+		features: [
+			"Unlimited websites & decks",
+			"AI-generated ad & landing page variants",
+			"Full AI workflows",
+			"Custom branding",
+			"Up to 5 users, real-time collaboration",
+			"PDF, HTML & Notion export",
+			"Webflow, Google Slides, Notion, Figma integrations",
+			"Priority email support",
+			"Live onboarding call"
+		],
+		cta: {
+			label: "Get started",
+			href: "/signup?plan=team"
+		},
+		highlight: true
+	},
+	{
+		name: "Company",
+		monthlyPrice: null,
+		yearlyPrice: null,
+		description: "For scaling startups needing advanced tools & support.",
+		features: [
+			"Everything in Team",
+			"Unlimited users",
+			"Advanced AI campaigns",
+			"Advanced roles & workflows",
+			"Custom models and outputs",
+			"All export types & white-label links",
+			"Full brand system, design tokens",
+			"Custom integrations & API access",
+			"Dedicated manager, Slack support",
+			"Dedicated onboarding & training"
+		],
+		cta: {
+			label: "Contact sales",
+			href: "/contact"
+		}
+	}
+]
 	}: {
 		title?: string;
 		subtitle?: string;
