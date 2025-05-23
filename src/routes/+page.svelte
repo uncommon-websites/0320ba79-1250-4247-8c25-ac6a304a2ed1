@@ -31,9 +31,9 @@
 			imageSrc: "/uploaded/uploaded-image-20250523-235435.png"
 		},
 		{
-			name: "AR Procedures Guide",
-			position: "Interactive machine instructions",
-			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
+			name: "Asterix Health Slide",
+			position: "Affordable, qualified care anytime, anywhere.",
+			imageSrc: "/uploaded/uploaded-image-20250523-235532.png"
 		},
 		{
 			name: "Insight Tablet Display",
