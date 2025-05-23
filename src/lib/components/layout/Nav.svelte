@@ -42,8 +42,6 @@
 	<div class="section-px container mx-auto grid grid-cols-[auto_1fr] gap-8 py-3">
 		<a href="/" class="flex items-center gap-3.5">
 			<Logo class="z-50 size-7" />
-
-			<span class="font-medium">{CONFIG.companyName}</span>
 		</a>
 
 		<!-- items + cta -->
