@@ -26,9 +26,9 @@
 			imageSrc: "/uploaded/uploaded-image-20250523-235333.png"
 		},
 		{
-			name: "Industrial Step-by-Step App",
-			position: "On-the-job guide",
-			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
+			name: "Julian Titz",
+			position: "Founder, Asterix",
+			imageSrc: "/uploaded/uploaded-image-20250523-235435.png"
 		},
 		{
 			name: "AR Procedures Guide",
