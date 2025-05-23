@@ -42,15 +42,8 @@
     }
   ]}
 />
-<LogoScroller
-	label="Trusted by industry leaders"
-	logoUrls={[
-		'https://logo.clearbit.com/loom.com',
-		'https://logo.clearbit.com/pitch.com',
-		'https://logo.clearbit.com/zapier.com',
-		'https://logo.clearbit.com/shogun.com'
-	]}
-/>
+
+
 
 <Summary
 	title="What we do"
