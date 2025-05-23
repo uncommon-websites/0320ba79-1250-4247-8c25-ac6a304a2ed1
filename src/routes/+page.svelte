@@ -13,7 +13,7 @@
 <CustomerCardHero
   centered={true}
   title="Launch faster. Look sharper."
-  subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
+  subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise more."
   customers={[
     {
       name: "Samantha Lee",
