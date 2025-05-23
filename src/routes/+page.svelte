@@ -16,9 +16,9 @@
 	subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
 	customers={[
 		{
-			name: "Squint Sales Deck Slide",
-			position: "Modern & minimalistic presentation",
-			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
+			name: "Asterix Health Sign",
+			position: "UK-registered remote doctors, 60% lower staffing costs.",
+			imageSrc: "/uploaded/uploaded-image-20250523-235122.png"
 		},
 		{
 			name: "Bill Murphy",
