@@ -46,7 +46,6 @@
 
 
 <Summary
-	title="What we do"
 	text="Uncommon is an AI Designer for startups—get your website, deck, and ads done in one tool. Move faster, look sharper, and get everything you need to sell, hire, and raise. Designed for founders who need product market fit."
 />
 
