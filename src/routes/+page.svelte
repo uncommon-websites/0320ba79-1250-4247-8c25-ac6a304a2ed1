@@ -16,29 +16,29 @@
   subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
   customers={[
     {
-      name: "Samantha Lee",
-      position: "Co-founder",
-      imageSrc: "/generated/image-a-confident-female-founder-working-at-he.webp"
+      name: "Squint Sales Deck Slide",
+      position: "Modern & minimalistic presentation",
+      imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
     },
     {
-      name: "Jason Miller",
-      position: "Founder & CEO",
-      imageSrc: "/generated/image-a-male-founder-dressed-in-business-casua.webp"
+      name: "Bill Murphy",
+      position: "Safety & Training Manager, Berkshire Hathaway Energy",
+      imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
     },
     {
-      name: "Priya Patel",
-      position: "Product Manager",
-      imageSrc: "/generated/image-a-female-product-manager-in-a-creative-w.webp"
+      name: "Industrial Step-by-Step App",
+      position: "On-the-job guide",
+      imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
     },
     {
-      name: "Mark Chen",
-      position: "CTO",
-      imageSrc: "/generated/image-a-male-cto-sitting-comfortably-in-a-mode.webp"
+      name: "AR Procedures Guide",
+      position: "Interactive machine instructions",
+      imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
     },
     {
-      name: "Alexis Rivera",
-      position: "Marketing Lead",
-      imageSrc: "/generated/image-a-female-marketing-lead-exuding-an-innov.webp"
+      name: "Insight Tablet Display",
+      position: "Industrial process dashboard",
+      imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
     }
   ]}
 />
