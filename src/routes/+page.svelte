@@ -63,7 +63,7 @@
       name: "Lina Breck",
       position: "Co-founder",
       company: "Squint",
-      quote: "We went from briefing agencies to shipping campaigns in a day. Uncommon handles brand, visuals, layout — everything I’d normally hire out. It slashed our burn on design by 60%.",
+      quote: "We went from briefing agencies to shipping campaigns in a day. Uncommon handles brand, visuals, layouts. Everything I’d normally hire out. It slashed our burn on design by 60%.",
       image: "/generated/image-a-focused-female-startup-founder-immerse.webp"
     },
     {
