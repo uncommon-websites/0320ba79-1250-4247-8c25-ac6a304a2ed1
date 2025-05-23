@@ -1,6 +1,7 @@
 @theme inline {
 	/* Theming */
 	--color-background: var(--color-white);
+	--color-bg-secondary: var(--color-secondary-100);
 	--color-foreground: var(--color-gray-950);
 
 	--color-card: var(--color-gray-50);
