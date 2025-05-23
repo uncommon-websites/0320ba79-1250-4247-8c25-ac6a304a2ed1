@@ -23,7 +23,7 @@
 		{
 			name: "Bill Murphy",
 			position: "Safety & Training Manager, Berkshire Hathaway Energy",
-			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
+			imageSrc: "/uploaded/uploaded-image-20250523-235333.png"
 		},
 		{
 			name: "Industrial Step-by-Step App",
