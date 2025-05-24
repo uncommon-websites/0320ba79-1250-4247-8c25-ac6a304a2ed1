@@ -90,13 +90,43 @@ It should ALWAYS have between 3 and 5 customers!
 				The company building tool for founders.
 			</p>
 
-    <div class="mx-auto mt-6 max-w-[45ch]">
-      <div class="w-full border rounded-lg p-3 bg-background text-foreground shadow-sm focus-within:ring-2 ring-ring flex items-center gap-2">
-        <input
-          type="text"
-          placeholder="What does your company do?"
-          class="w-full bg-transparent outline-none placeholder:text-muted-foreground"
-        />
+    <div class="mx-auto mt-8 max-w-[50ch] group" data-enter>
+      <div class="relative overflow-hidden">
+        <!-- Swiss-inspired geometric accent -->
+        <div class="absolute -top-px left-0 h-px w-0 bg-gradient-to-r from-foreground/20 via-foreground/60 to-foreground/20 transition-all duration-700 ease-out group-focus-within:w-full"></div>
+        
+        <!-- Main input container -->
+        <div class="relative bg-background/80 backdrop-blur-sm border border-border/40 transition-all duration-500 ease-out group-focus-within:border-foreground/30 group-focus-within:bg-background/95 group-focus-within:shadow-[0_0_0_1px_rgba(0,0,0,0.05),0_8px_32px_rgba(0,0,0,0.08)] group-hover:border-foreground/20">
+          
+          <!-- Subtle inner glow -->
+          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-foreground/[0.02] to-transparent opacity-0 transition-opacity duration-500 group-focus-within:opacity-100"></div>
+          
+          <!-- Input field -->
+          <input
+            type="text"
+            placeholder="What does your company do?"
+            class="relative z-10 w-full bg-transparent px-6 py-4 text-base font-medium text-foreground placeholder:text-muted-foreground/60 placeholder:font-normal outline-none transition-all duration-300 ease-out focus:placeholder:text-muted-foreground/40 focus:placeholder:translate-x-1"
+          />
+          
+          <!-- Micro-interaction indicator -->
+          <div class="absolute bottom-0 left-6 h-px w-0 bg-foreground/60 transition-all duration-500 ease-out group-focus-within:w-[calc(100%-3rem)]"></div>
+        </div>
+        
+        <!-- Swiss precision corner detail -->
+        <div class="absolute -bottom-px -right-px h-2 w-2 border-b border-r border-foreground/10 transition-all duration-500 group-focus-within:border-foreground/30"></div>
+        
+        <!-- Subtle bottom accent -->
+        <div class="absolute -bottom-px left-0 h-px w-0 bg-gradient-to-r from-transparent via-foreground/30 to-transparent transition-all duration-700 ease-out delay-100 group-focus-within:w-full"></div>
+      </div>
+      
+      <!-- Swiss-inspired helper text -->
+      <div class="mt-3 flex items-center justify-between text-xs font-medium tracking-wide text-muted-foreground/50 transition-all duration-300 group-focus-within:text-muted-foreground/70">
+        <span class="translate-y-1 opacity-0 transition-all duration-300 delay-100 group-focus-within:translate-y-0 group-focus-within:opacity-100">
+          Press Enter to continue
+        </span>
+        <span class="font-mono text-[10px] tracking-wider opacity-0 transition-all duration-300 delay-200 group-focus-within:opacity-60">
+          01/01
+        </span>
       </div>
     </div>
 		</div>
