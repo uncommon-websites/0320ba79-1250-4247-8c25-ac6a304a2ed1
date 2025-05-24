@@ -47,8 +47,8 @@ export type NavItem = {
 };
 
 export const cta = {
-	label: "Book demo",
-	href: "/"
+	label: "Try Uncommon",
+	href: "/get-started"
 };
 
 export const navigation: NavItem[] = [
