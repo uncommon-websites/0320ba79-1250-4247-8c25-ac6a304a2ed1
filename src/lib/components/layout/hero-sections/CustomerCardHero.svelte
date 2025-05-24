@@ -64,6 +64,9 @@ It should ALWAYS have between 3 and 5 customers!
 			}
 		);
 	});
+
+	// Move inputValue variable to top-level script
+	let inputValue = "";
 </script>
 
 <div class="bg-background" {...rest}>
@@ -114,9 +117,7 @@ It should ALWAYS have between 3 and 5 customers!
   {/if}
 </div>
 
-<script>
-  let inputValue = '';
-</script>
+ 
     </div>
 		</div>
 
