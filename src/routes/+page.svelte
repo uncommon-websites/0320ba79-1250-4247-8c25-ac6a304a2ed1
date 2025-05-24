@@ -33,9 +33,10 @@
 		},
 		{
 			name: "Blue Hoodie",
-			imageSrc: "/uploaded/uploaded-image-20250524-003515.png"
+			imageSrc: "/uploaded/uploaded-image-20250524-003800.png"
 		}
 	]}
+	labels={["", "", "", "", "Merch"]}
 />
 
 <Summary
