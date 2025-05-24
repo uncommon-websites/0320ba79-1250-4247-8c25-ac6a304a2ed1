@@ -16,27 +16,27 @@
 	subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
 	customers={[
 		{
-			name: "Asterix Health Sign",
+			name: "Brand",
 			position: "UK-registered remote doctors, 60% lower staffing costs.",
 			imageSrc: "/uploaded/uploaded-image-20250523-235122.png"
 		},
 		{
-			name: "Bill Murphy",
+			name: "Website",
 			position: "Safety & Training Manager, Berkshire Hathaway Energy",
 			imageSrc: "/uploaded/uploaded-image-20250523-235333.png"
 		},
 		{
-			name: "Julian Titz",
+			name: "Logo",
 			position: "Founder, Asterix",
 			imageSrc: "/uploaded/uploaded-image-20250523-235435.png"
 		},
 		{
-			name: "Asterix Health Slide",
+			name: "Decks",
 			position: "Affordable, qualified care anytime, anywhere.",
 			imageSrc: "/uploaded/uploaded-image-20250523-235532.png"
 		},
 		{
-			name: "Insight Tablet Display",
+			name: "Merch",
 			position: "Industrial process dashboard",
 			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
 		}
