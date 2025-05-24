@@ -32,7 +32,7 @@
 			imageSrc: "/uploaded/uploaded-image-20250523-235532.png"
 		},
 		{
-			name: "Blue Hoodie",
+			name: "Merch",
 			imageSrc: "/uploaded/uploaded-image-20250524-003800.png"
 		}
 	]}
