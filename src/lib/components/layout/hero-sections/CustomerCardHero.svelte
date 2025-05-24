@@ -106,13 +106,13 @@ It should ALWAYS have between 3 and 5 customers!
       class="w-8 h-8 flex items-center justify-center rounded-md bg-foreground/5 text-foreground/30"
       disabled
     >
-      ➔
+      Move this input field below the images in the hero.  ➔
     </button>
   {:else}
     <button
       class="w-8 h-8 flex items-center justify-center rounded-md bg-foreground text-background shadow-[0_1px_3px_rgba(0,0,0,0.05)]"
     >
-      ➔
+      Move this input field below the images in the hero.  ➔
     </button>
   {/if}
 </div>
