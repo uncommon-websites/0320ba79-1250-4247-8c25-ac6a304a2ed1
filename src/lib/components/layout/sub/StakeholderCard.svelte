@@ -53,9 +53,8 @@
 		]}
 	>
 		<div class={type === "join" ? "grid grid-cols-2 items-center" : ""}>
-			<div>
-				<div>{name}</div>
-				<div class="opacity-70">{position}</div>
+			<div class="flex items-center justify-center h-full w-full">
+				<div class="text-center w-full">{name}</div>
 			</div>
 			{#if type === "join"}
 				<div class="justify-self-end">

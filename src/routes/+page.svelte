@@ -17,27 +17,22 @@
 	customers={[
 		{
 			name: "Brand",
-			position: "UK-registered remote doctors, 60% lower staffing costs.",
 			imageSrc: "/uploaded/uploaded-image-20250523-235122.png"
 		},
 		{
 			name: "Website",
-			position: "Safety & Training Manager, Berkshire Hathaway Energy",
 			imageSrc: "/uploaded/uploaded-image-20250523-235333.png"
 		},
 		{
 			name: "Logo",
-			position: "Founder, Asterix",
 			imageSrc: "/uploaded/uploaded-image-20250523-235435.png"
 		},
 		{
-			name: "Decks",
-			position: "Affordable, qualified care anytime, anywhere.",
+			name: "Deck",
 			imageSrc: "/uploaded/uploaded-image-20250523-235532.png"
 		},
 		{
-			name: "Merch",
-			position: "Industrial process dashboard",
+			name: "Merge",
 			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
 		}
 	]}
