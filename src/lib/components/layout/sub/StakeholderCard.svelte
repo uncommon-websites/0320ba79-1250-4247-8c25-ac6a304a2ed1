@@ -29,33 +29,35 @@
 		type === "join" ? "bg-primary" : ""
 	]}
 >
-	{#if type !== "join" && imageSrc}
-		<img
-			src={imageSrc}
-			alt={name}
-			loading="lazy"
-			class="absolute inset-0 z-0 h-full w-full object-cover"
-		/>
-	{/if}
-
 	{#if type === "team" && stakeholderType === "team"}
 		<div
-			class="absolute top-0 right-0 bottom-0 left-0 z-1 bg-gradient-to-b from-black/0 via-black/0 to-black/30"
+			class="absolute top-0 right-0 bottom-0 left-0 z-0 bg-gradient-to-b from-black/0 via-black/0 to-black/30"
 		>
 			<div class="linear-blur-down absolute right-0 bottom-0 left-0 h-[25%]"></div>
 		</div>
 	{/if}
 
+	{#if type !== "join" && imageSrc}
+		<img
+			src={imageSrc}
+			alt={name}
+			loading="lazy"
+			class="absolute inset-0 z-1 h-full w-full object-cover"
+		/>
+	{/if}
+
 	<div
 		class={[
-			"text-caption z-10",
+			"text-caption z-10 text-center flex flex-col items-center w-full",
 			stakeholderType !== "team" ? "text-gray-700 dark:text-gray-50" : "text-white"
 		]}
 	>
 		<div class={type === "join" ? "grid grid-cols-2 items-center" : ""}>
-			<div>
+			<div class="w-full">
 				<div>{name}</div>
-				<div class="opacity-70">{position}</div>
+				{#if position}
+					<div class="opacity-70">{position}</div>
+				{/if}
 			</div>
 			{#if type === "join"}
 				<div class="justify-self-end">

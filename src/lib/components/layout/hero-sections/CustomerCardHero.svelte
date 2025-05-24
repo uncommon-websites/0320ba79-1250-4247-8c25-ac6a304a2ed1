@@ -39,7 +39,13 @@ It should ALWAYS have between 3 and 5 customers!
 	let {
 		title,
 		subtitle,
-		customers = [],
+		customers = [
+			{ name: "Brand", imageSrc: "/uploaded/uploaded-image-20250523-235122.png" },
+			{ name: "Website", imageSrc: "/uploaded/uploaded-image-20250523-235333.png" },
+			{ name: "Logo", imageSrc: "/uploaded/uploaded-image-20250523-235435.png" },
+			{ name: "Decks", imageSrc: "/uploaded/uploaded-image-20250523-235532.png" },
+			{ name: "Merch", imageSrc: "/uploaded/uploaded-image-20250523-200943.webp" }
+		],
 		callsToAction = [cta],
 		centered = false,
 		...rest
