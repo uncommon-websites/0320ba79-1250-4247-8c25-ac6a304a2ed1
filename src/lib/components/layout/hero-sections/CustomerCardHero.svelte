@@ -91,13 +91,32 @@ It should ALWAYS have between 3 and 5 customers!
 			</p>
 
     <div class="mx-auto mt-6 max-w-[45ch]">
-      <div class="w-full border rounded-lg p-3 bg-background text-foreground shadow-sm focus-within:ring-2 ring-ring flex items-center gap-2">
-        <input
-          type="text"
-          placeholder="What does your company do?"
-          class="w-full bg-transparent outline-none placeholder:text-muted-foreground"
-        />
-      </div>
+      <div class="w-full max-w-[1200px] border rounded-lg p-3 bg-background text-foreground shadow-sm shadow-[0_1px_3px_rgba(0,0,0,0.04)] focus-within:ring-2 ring-ring flex items-center gap-2">
+  <input
+    type="text"
+    placeholder="E.g. AI design assistant for early stage teams"
+    bind:value={inputValue}
+    class="w-full bg-transparent outline-none placeholder:text-foreground/80 text-base"
+  />
+  {#if !inputValue}
+    <button
+      class="w-8 h-8 flex items-center justify-center rounded-md bg-foreground/5 text-foreground/30"
+      disabled
+    >
+      ➔
+    </button>
+  {:else}
+    <button
+      class="w-8 h-8 flex items-center justify-center rounded-md bg-foreground text-background shadow-[0_1px_3px_rgba(0,0,0,0.05)]"
+    >
+      ➔
+    </button>
+  {/if}
+</div>
+
+<script>
+  let inputValue = '';
+</script>
     </div>
 		</div>
 
