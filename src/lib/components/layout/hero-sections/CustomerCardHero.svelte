@@ -87,7 +87,7 @@ It should ALWAYS have between 3 and 5 customers!
 					// isTitleComplete ? "opacity-100" : "translate-y-2 opacity-0 blur-sm"
 				]}
 			>
-				The company building tool for founders. Build your website, deck and ads—everything you need to get to product-market fit.
+				The company building tool for founders.
 			</p>
 
     <div class="mx-auto mt-6 max-w-[45ch]">
