@@ -32,8 +32,8 @@
 			imageSrc: "/uploaded/uploaded-image-20250523-235532.png"
 		},
 		{
-			name: "Merge",
-			imageSrc: "/uploaded/uploaded-image-20250523-200943.webp"
+			name: "Blue Hoodie",
+			imageSrc: "/uploaded/uploaded-image-20250524-003515.png"
 		}
 	]}
 />
