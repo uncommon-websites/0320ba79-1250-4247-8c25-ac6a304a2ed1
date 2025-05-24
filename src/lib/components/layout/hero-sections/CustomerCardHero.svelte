@@ -87,7 +87,7 @@ It should ALWAYS have between 3 and 5 customers!
 					// isTitleComplete ? "opacity-100" : "translate-y-2 opacity-0 blur-sm"
 				]}
 			>
-				{subtitle}
+				Websites, pitch decks, ads and more—everything you need in one company building tool.
 			</p>
 
     <div class="mx-auto mt-6 max-w-[45ch]">
