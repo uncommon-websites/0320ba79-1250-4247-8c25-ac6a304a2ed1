@@ -1,12 +1,5 @@
 <script lang="ts">
 	// Components
-	import UseCases from "$lib/components/layout/UseCases.svelte";
-	import Summary from "$lib/components/layout/Summary.svelte";
-	import Features from "$lib/components/layout/Features.svelte";
-	import Testimonials from "$lib/components/layout/Testimonials.svelte";
-	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
-	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 	
 	// State for the prompt input
@@ -126,15 +119,9 @@
 	</div>
 </section>
 
-<Summary
-	text="Uncommon is an AI Designer for startups—get your website, deck, and ads done in one tool. Move faster, look sharper, and get everything you need to sell, hire, and raise. Designed for founders who need product market fit."
-/>
-
-<Testimonials
-	testimonials={[
-		{
-			name: "Hassan Tariq",
-			position: "CEO",
+<!-- All components below text input removed -->
+<!-- Remaining content removed -->
+	-->
 			company: "nsave",
 			quote:
 				"Uncommon cut three weeks off our launch timeline. We had a site, deck, and ad set ready before we’d even staffed up design. It felt like cheating — in the best way.",
@@ -159,7 +146,7 @@
 	]}
 />
 
-<Features
+<!-- Features removed -->
 	title="Designed to sell, hire and raise"
 	subtitle="No designers or agencies needed."
 	features={[
@@ -191,7 +178,7 @@
 	]}
 />
 
-<UseCases
+<!-- UseCases removed -->
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
@@ -228,8 +215,8 @@
 	]}
 />
 
-<AboutTeaser />
-<CallToAction
+<!-- AboutTeaser removed -->
+<!-- CallToAction removed -->
 	title="Built to get you to product market fit"
 	subtitle="Everything a startup needs. Done for you."
 	description="Uncommon helps you launch faster with AI-built websites, decks, ads and more — all in one place. Move fast, impress investors, and start selling sooner."
