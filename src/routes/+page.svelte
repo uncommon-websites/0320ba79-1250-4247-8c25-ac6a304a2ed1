@@ -139,86 +139,11 @@
 				"Our pitch deck used to change 5 times a week and never felt right. With Uncommon, we had fundraise-ready output in hours — tight, consistent, and bold. It helped de-risk a key part of our raise.",
 			image: "/generated/image-a-determined-female-startup-coo-in-a-gla.webp"
 		}
-	]}
-/>
+ 
 
-<!-- Features removed -->
-	title="Designed to sell, hire and raise"
-	subtitle="No designers or agencies needed."
-	features={[
-		{
-			title: "Websites, decks & ads in minutes",
-			description: "Go from idea to launch—Uncommon builds it all for you, instantly."
-		},
-		{
-			title: "Built for founders, not designers",
-			description:
-				"No fiddling with Figma or slides—just tell Uncommon what you need and get results."
-		},
-		{
-			title: "Conversion-focused by default",
-			description: "Each page is designed to help you attract users, investors, and top talent."
-		},
-		{
-			title: "Sequoia-trusted frameworks",
-			description: "Used by Squint and nsave, so you know it works when it counts."
-		},
-		{
-			title: "Brand grows as you grow",
-			description: "Start lean and update your brand whenever your company evolves."
-		},
-		{
-			title: "Less time briefing, more time building",
-			description: "Spend your energy on the product, not on project calls and feedback cycles."
-		}
-	]}
-/>
+ 
 
-<!-- UseCases removed -->
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Find early traction",
-			description:
-				"Launch messaging and landing pages to validate your idea and get real signal fast.",
-			image: "/generated/image-a-diverse-startup-founder-team-collabora.webp",
-			link: {
-				href: "/use-cases/product-market-fit",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Raise your next round",
-			description:
-				"Build investor decks that tell a sharp story — clearly, visually and confidently.",
-			image: "/generated/image-a-confident-startup-founder-delivering-a.webp",
-			link: {
-				href: "/use-cases/fundraising",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Attract great talent",
-			description:
-				"Design branded job pages that help you pitch your mission and convert top candidates.",
-			image: "/generated/image-a-small-tech-team-welcoming-new-hires-in.webp",
-			link: {
-				href: "/use-cases/team-recruiting",
-				label: "Learn more"
-			}
-		}
-	]}
-/>
+ 
 
-<!-- AboutTeaser removed -->
-<!-- CallToAction removed -->
-	title="Built to get you to product market fit"
-	subtitle="Everything a startup needs. Done for you."
-	description="Uncommon helps you launch faster with AI-built websites, decks, ads and more — all in one place. Move fast, impress investors, and start selling sooner."
-	imageSrc="/generated/image-a-diverse-group-of-startup-founders-each.webp"
-	callsToAction={[
-		{ href: "/get-started", label: "Try Uncommon", variant: "primary" },
-		{ href: "/contact", label: "See how it works", variant: "secondary" }
-	]}
-/>
+ 
+	 
