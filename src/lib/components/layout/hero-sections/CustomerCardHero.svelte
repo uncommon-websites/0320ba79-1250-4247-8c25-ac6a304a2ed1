@@ -69,6 +69,9 @@ It should ALWAYS have between 3 and 5 customers!
 			<h1 class="text-display w-full text-balance" data-enter>
 				<span class="block"><AnimateText text={title} /></span>
 			</h1>
+			<p class="text-muted-foreground text-headline block max-w-[45ch] text-pretty transition duration-500 ease-out mx-auto" data-enter>
+				{subtitle}
+			</p>
 		</div>
 	
 	</header>
