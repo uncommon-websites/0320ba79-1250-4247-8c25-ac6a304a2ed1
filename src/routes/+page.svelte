@@ -119,18 +119,14 @@
 	</div>
 </section>
 
-<!-- All components below text input removed -->
-<!-- Remaining content removed -->
-	-->
-			company: "nsave",
-			quote:
-				"Uncommon cut three weeks off our launch timeline. We had a site, deck, and ad set ready before we’d even staffed up design. It felt like cheating — in the best way.",
-			image: "/generated/image-a-confident-male-startup-ceo-in-a-modern.webp"
+<!-- Components removed for clean homepage -->
+				" . We had a site, deck, and ad set ready before we’d even staffed up design. It felt like cheating — in the best way.",
+			 
 		},
 		{
-			name: "Lina Breck",
-			position: "Co-founder",
-			company: "Squint",
+	 
+	 
+	 
 			quote:
 				"We went from briefing agencies to shipping campaigns in a day. Uncommon handles brand, visuals, layouts. Everything I’d normally hire out. It slashed our burn on design by 60%.",
 			image: "/generated/image-a-focused-female-startup-founder-immerse.webp"
