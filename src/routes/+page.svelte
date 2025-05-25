@@ -22,7 +22,7 @@
 <CustomerCardHero
 	centered={true}
 	title="Designed to sell, hire, raise."
-	subtitle="Founders "
+	subtitle=""
 	customers={[
 		{
 			name: "Brand",
