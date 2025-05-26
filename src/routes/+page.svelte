@@ -52,7 +52,7 @@
 	/>
 
 	<!-- Sleek Apple and Swiss Design Prompt Input -->
-	<section class="pb-16">
+	<section class="pb-8">
 		<div class="container mx-auto section-px">
 			{#snippet promptInput()}
 				{@const isHovered = false}
