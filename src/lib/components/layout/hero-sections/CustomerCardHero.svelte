@@ -89,16 +89,6 @@ It should ALWAYS have between 3 and 5 customers!
 			>
 				The company building tool for founders that find PMF fast.
 			</p>
-
-    <div class="mx-auto mt-6 max-w-[45ch]">
-      <div class="w-full border rounded-lg p-3 bg-background text-foreground shadow-sm focus-within:ring-2 ring-ring flex items-center gap-2">
-        <input
-          type="text"
-          placeholder="What does your company do?"
-          class="w-full bg-transparent outline-none placeholder:text-muted-foreground"
-        />
-      </div>
-    </div>
 		</div>
 
 		{#if callsToAction.length > 0}
@@ -130,5 +120,15 @@ It should ALWAYS have between 3 and 5 customers!
 				<StakeholderCard bind:cards {...customer} {index} />
 			</div>
 		{/each}
+	</div>
+
+	<div class="mx-auto mt-12 max-w-[45ch] section-px">
+		<div class="w-full border rounded-lg p-3 bg-background text-foreground shadow-sm focus-within:ring-2 ring-ring flex items-center gap-2">
+			<input
+				type="text"
+				placeholder="What does your company do?"
+				class="w-full bg-transparent outline-none placeholder:text-muted-foreground"
+			/>
+		</div>
 	</div>
 </div>
