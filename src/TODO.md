@@ -1,7 +1,7 @@
 # Task: Modify Pricing Table Structure
 
-- [ ] Update features array to remove tier-specific descriptions
-- [ ] Modify table header to remove tier column headers
+- [x] Update features array to remove tier-specific descriptions
+- [x] Modify table header to remove tier column headers
 - [ ] Update table rows to include tier names inline with feature names
 - [ ] Style tier names with smaller font and lighter gray color
 - [ ] Replace all table cell content with generation limits ("limited generation" for Solo, "unlimited generations" for Uncommon Pro)

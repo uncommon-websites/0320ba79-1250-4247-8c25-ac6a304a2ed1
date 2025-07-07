@@ -40,57 +40,57 @@ Please update features according to the company's product offering. Do not remov
 	{
 		name: "Deep Context",
 		tiers: {
-			Solo: "on customers, competitors & positioning",
-			"Uncommon Pro": "on customers, competitors & positioning"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Brand",
 		tiers: {
-			Solo: "full brandbook including colors & font",
-			"Uncommon Pro": "full brandbook including colors & font"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Website",
 		tiers: {
-			Solo: "design & hosting",
-			"Uncommon Pro": "design & hosting"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Logo",
 		tiers: {
-			Solo: "wordmark & logomark",
-			"Uncommon Pro": "wordmark & logomark"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Decks",
 		tiers: {
-			Solo: "Google Slides master template",
-			"Uncommon Pro": "Google Slides master template"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Snippets",
 		tiers: {
-			Solo: "for investors & growth",
-			"Uncommon Pro": "for investors & growth"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Story",
 		tiers: {
-			Solo: "your founding ethos",
-			"Uncommon Pro": "your founding ethos"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	},
 	{
 		name: "Socials",
 		tiers: {
-			Solo: "assets for Linkedin & X",
-			"Uncommon Pro": "assets for Linkedin & X"
+			Solo: "limited generation",
+			"Uncommon Pro": "unlimited generations"
 		}
 	}
 ],
@@ -292,7 +292,7 @@ Please update features according to the company's product offering. Do not remov
 			<!-- Universal pricing comparison for mobile -->
 			<div class="overflow-x-auto">
 				<table class="w-full border-collapse">
-					<!-- Sticky header with tier names -->
+					<!-- Sticky header without tier names -->
 					<thead class="border-border sticky top-0 z-10 border-b">
 						<tr>
 							<th class="min-w-[120px] py-3 text-left">
@@ -300,7 +300,7 @@ Please update features according to the company's product offering. Do not remov
 							</th>
 							{#each tiers as tier, i}
 								<th class="text-caption min-w-[100px] py-3 text-left dark:text-white">
-									{tier.name}
+									<span class="sr-only">{tier.name}</span>
 								</th>
 							{/each}
 						</tr>
@@ -310,20 +310,19 @@ Please update features according to the company's product offering. Do not remov
 							<tr>
 								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
 									{feature.name}
+									<div class="flex gap-4 mt-1">
+										{#each tiers as tier}
+											<span class="text-sm text-gray-500 dark:text-gray-400">
+												{tier.name}
+											</span>
+										{/each}
+									</div>
 								</td>
 								{#each tiers as tier, i}
 									<td class="py-3">
-										{#if typeof feature.tiers[tier.name] === "boolean"}
-											{#if feature.tiers[tier.name]}
-												<span class="text-primary-900 dark:text-primary-400 size-5">✓</span>
-											{:else}
-												<span class="size-5 text-gray-400">✗</span>
-											{/if}
-										{:else}
-											<span class="text-callout font-medium text-gray-700 dark:text-gray-300">
-												{feature.tiers[tier.name]}
-											</span>
-										{/if}
+										<span class="text-callout font-medium text-gray-700 dark:text-gray-300">
+											{feature.tiers[tier.name]}
+										</span>
 									</td>
 								{/each}
 							</tr>
