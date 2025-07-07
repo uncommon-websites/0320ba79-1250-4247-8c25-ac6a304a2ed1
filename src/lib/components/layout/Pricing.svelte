@@ -123,7 +123,7 @@ Please update features according to the company's product offering. Do not remov
 		name: "Pro",
 		monthlyPrice: 149,
 		yearlyPrice: 119, // $119/mo paid yearly
-		description: "For small teams launching and growing.",
+		description: "Unlimited edits to go far",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
 			"Generates your website, logo, decks, snippets, story & socials",
