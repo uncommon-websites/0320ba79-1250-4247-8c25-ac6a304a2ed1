@@ -42,64 +42,64 @@ Please update features according to the company's product offering. Do not remov
 		name: "Deep Context",
 		description: "on customers, competitors & positioning",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Brand",
 		description: "colors, fonts, logos & guidelines",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Website",
 		description: "landing pages, product pages & portfolios",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Logo",
 		description: "brand marks, wordmarks & variations",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Decks",
 		description: "pitch decks, sales decks & presentations",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Snippets",
 		description: "marketing copy, headlines & taglines",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Story",
 		description: "company narrative, mission & vision",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	},
 	{
 		name: "Socials",
 		description: "posts, ads & social media content",
 		tiers: {
-			Solo: "limited generation",
-			"Uncommon Pro": "unlimited generations"
+			Solo: "Limited generations",
+			"Uncommon Pro": "Unlimited generations"
 		}
 	}
 ],

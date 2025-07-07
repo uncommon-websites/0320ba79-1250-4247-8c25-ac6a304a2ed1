@@ -1,8 +1,6 @@
-# Task: Update Pricing Table Structure
+# Task: Update Pricing Text - Plural Generations and Capitalization
 
-- [x] Add descriptions to features array for each feature (Deep Context, Brand, Website, etc.)
-- [x] Update table rendering to show feature descriptions in smaller, lighter gray text
-- [x] Ensure Solo column shows "limited generation" for all rows
-- [x] Ensure Uncommon Pro column shows "unlimited generations" for all rows
-- [x] Test the updated table layout and styling
+- [x] Update "limited generation" to "Limited generations" in features array
+- [x] Update "unlimited generations" to "Unlimited generations" in features array  
+- [x] Verify all instances are updated correctly
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
