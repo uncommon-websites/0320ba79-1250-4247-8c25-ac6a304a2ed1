@@ -3,6 +3,7 @@
 	import type { PageProps } from "./$types";
 
 	// Components
+	import Features from "$lib/components/layout/Features.svelte";
 	import Testimonials from "$lib/components/layout/Testimonials.svelte";
 	import Pricing from "$lib/components/layout/Pricing.svelte";
 
@@ -38,16 +39,5 @@
         "We were skeptical at first, but Uncommon was up and running in under an hour and our site was live the next day. Zero hand-holding needed.",
       image: "/generated/image-a-black-woman-seated-at-a-desk-in-a-brig.webp"
     }
-  ]}
-/>
-
-<!-- CallToAction removed
-  title="Startup design, done for you"
-  subtitle="The fastest way to launch, look great, and grow"
-  description="Make your startup look the way it should from day one—like it’s already working. Websites, decks, ads—all built for you so you can focus on building, not designing."
-  imageSrc="/generated/image-a-cheerful-early-stage-founder-in-a-cont.webp"
-  callsToAction={[
-    { href: '/get-started', label: 'Get started now', variant: 'primary' },
-    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
   ]}
 />

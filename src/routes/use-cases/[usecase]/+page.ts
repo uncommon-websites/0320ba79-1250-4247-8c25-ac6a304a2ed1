@@ -23,9 +23,10 @@ type UseCase = {
 	};
 	testimonials: Array<{
 		quote: string;
-		author: string;
-		role: string;
-		imageSrc: string;
+		name: string;
+		position: string;
+		company: string;
+		image: string;
 	}>;
 	features: {
 		title: string;
@@ -44,7 +45,7 @@ type UseCase = {
 		callsToAction: Array<{
 			href: string;
 			label: string;
-			variant?: string;
+			variant?: "primary" | "secondary" | "outline" | "ghost" | "link";
 		}>;
 	};
 };
@@ -72,15 +73,17 @@ const healthcareUseCase: UseCase = {
 	testimonials: [
 		{
 			quote: "This solution has revolutionized how we manage patient data and care coordination.",
-			author: "Dr. Sarah Williams",
-			role: "Chief Medical Officer, Metro Health",
-			imageSrc: "/images/testimonials/sarah-williams.jpg"
+			name: "Dr. Sarah Williams",
+			position: "Chief Medical Officer",
+			company: "Metro Health",
+			image: "/images/testimonials/sarah-williams.jpg"
 		},
 		{
 			quote: "We've seen a 30% reduction in administrative tasks since implementation.",
-			author: "Robert Chen",
-			role: "Healthcare Administrator, Community Care",
-			imageSrc: "/images/testimonials/robert-chen.jpg"
+			name: "Robert Chen",
+			position: "Healthcare Administrator",
+			company: "Community Care",
+			image: "/images/testimonials/robert-chen.jpg"
 		}
 	],
 	features: {
@@ -147,15 +150,17 @@ const financeUseCase: UseCase = {
 		{
 			quote:
 				"This platform has transformed our risk management approach and increased our efficiency by 50%.",
-			author: "James Wilson",
-			role: "CTO, Global Investments",
-			imageSrc: "/images/testimonials/james-wilson.jpg"
+			name: "James Wilson",
+			position: "CTO",
+			company: "Global Investments",
+			image: "/images/testimonials/james-wilson.jpg"
 		},
 		{
 			quote: "The predictive analytics have given us a competitive edge in market analysis.",
-			author: "Linda Chang",
-			role: "Head of Trading, Apex Capital",
-			imageSrc: "/images/testimonials/linda-chang.jpg"
+			name: "Linda Chang",
+			position: "Head of Trading",
+			company: "Apex Capital",
+			image: "/images/testimonials/linda-chang.jpg"
 		}
 	],
 	features: {
@@ -222,16 +227,18 @@ const technologyUseCase: UseCase = {
 		{
 			quote:
 				"This solution has cut our development cycle by 35% and improved code quality significantly.",
-			author: "Alex Rivera",
-			role: "CTO, FutureTech",
-			imageSrc: "/images/testimonials/alex-rivera.jpg"
+			name: "Alex Rivera",
+			position: "CTO",
+			company: "FutureTech",
+			image: "/images/testimonials/alex-rivera.jpg"
 		},
 		{
 			quote:
 				"The automated testing and deployment features have revolutionized our release process.",
-			author: "Priya Sharma",
-			role: "VP of Engineering, CodeInnovate",
-			imageSrc: "/images/testimonials/priya-sharma.jpg"
+			name: "Priya Sharma",
+			position: "VP of Engineering",
+			company: "CodeInnovate",
+			image: "/images/testimonials/priya-sharma.jpg"
 		}
 	],
 	features: {
@@ -297,16 +304,18 @@ const educationUseCase = {
 		{
 			quote:
 				"This platform has transformed how we deliver curriculum and engage with our students.",
-			author: "Dr. Emily Rodriguez",
-			role: "Superintendent, Westview School District",
-			imageSrc: "/images/testimonials/emily-rodriguez.jpg"
+			name: "Dr. Emily Rodriguez",
+			position: "Superintendent",
+			company: "Westview School District",
+			image: "/images/testimonials/emily-rodriguez.jpg"
 		},
 		{
 			quote:
 				"The analytics capabilities have helped us identify at-risk students and intervene earlier.",
-			author: "Professor Thomas Lee",
-			role: "Dean of Students, Horizon University",
-			imageSrc: "/images/testimonials/thomas-lee.jpg"
+			name: "Professor Thomas Lee",
+			position: "Dean of Students",
+			company: "Horizon University",
+			image: "/images/testimonials/thomas-lee.jpg"
 		}
 	],
 	features: {
@@ -361,7 +370,7 @@ export const load: PageLoad = async ({ params }) => {
 	const { usecase } = params;
 
 	if (!usecase || !(usecase in useCases)) {
-		return {};
+		return healthcareUseCase;
 	}
 
 	return useCases[usecase as keyof typeof useCases] ?? healthcareUseCase;
