@@ -132,7 +132,7 @@ Please update features according to the company's product offering. Do not remov
 	{
 		name: "Solo",
 		monthlyPrice: 49,
-		yearlyPrice: 39, // $39/mo paid yearly
+		yearlyPrice: 79, // $79/mo paid yearly
 		description: "For solo founders validating ideas fast.",
 		features: [
 			"Up to 2 websites & decks",

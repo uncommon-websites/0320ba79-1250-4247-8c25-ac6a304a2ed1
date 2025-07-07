@@ -36,6 +36,17 @@ type UseCase = {
 			icon: string;
 		}>;
 	};
+	cta: {
+		title: string;
+		subtitle: string;
+		imageSrc: string;
+		description: string;
+		callsToAction: Array<{
+			href: string;
+			label: string;
+			variant?: string;
+		}>;
+	};
 };
 
 // Constants
