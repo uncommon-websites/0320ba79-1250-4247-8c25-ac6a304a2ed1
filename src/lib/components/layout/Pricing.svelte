@@ -110,13 +110,9 @@ Please update features according to the company's product offering. Do not remov
 		yearlyPrice: 59, // $59/mo paid yearly
 		description: "For solo founders validating ideas fast.",
 		features: [
-			"Up to 2 websites & decks",
-			"Basic templates for ads & pages",
-			"Website and deck AI generator",
-			"Uncommon branding",
-			"Notion & Figma integrations",
-			"Community support",
-			"Self-serve onboarding"
+			"Designs brand with deep context on your company, customers & competitors",
+			"Generates your website, logo, decks, snippets, story & socials",
+			"Hosts your website"
 		],
 		cta: {
 			label: "Try free",
@@ -129,15 +125,9 @@ Please update features according to the company's product offering. Do not remov
 		yearlyPrice: 119, // $119/mo paid yearly
 		description: "For small teams launching and growing.",
 		features: [
-			"Unlimited websites & decks",
-			"AI-generated ad & landing page variants",
-			"Full AI workflows",
-			"Custom branding",
-			"Up to 5 users, real-time collaboration",
-			"PDF, HTML & Notion export",
-			"Webflow, Google Slides, Notion, Figma integrations",
-			"Priority email support",
-			"Live onboarding call"
+			"Designs brand with deep context on your company, customers & competitors",
+			"Generates your website, logo, decks, snippets, story & socials",
+			"Hosts your website"
 		],
 		cta: {
 			label: "Get started",
