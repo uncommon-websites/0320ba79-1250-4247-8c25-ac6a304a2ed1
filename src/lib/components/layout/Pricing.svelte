@@ -48,7 +48,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Brand",
-		description: "colors, fonts, logos & guidelines",
+		description: "full brandbook including colors & font",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -56,7 +56,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Website",
-		description: "landing pages, product pages & portfolios",
+		description: "design & hosting",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -64,7 +64,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Logo",
-		description: "brand marks, wordmarks & variations",
+		description: "wordmark & logomark",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -72,7 +72,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Decks",
-		description: "pitch decks, sales decks & presentations",
+		description: "Google Slides master template",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -80,7 +80,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Snippets",
-		description: "marketing copy, headlines & taglines",
+		description: "for investors & growth",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -88,7 +88,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Story",
-		description: "company narrative, mission & vision",
+		description: "your founding ethos",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
@@ -96,7 +96,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Socials",
-		description: "posts, ads & social media content",
+		description: "assets for Linkedin & X",
 		tiers: {
 			Plus: "Limited generations",
 			Pro: "Unlimited generations"
