@@ -5,7 +5,6 @@
 	// Icons
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
-	import SecondaryHero from "$lib/components/layout/hero-sections/SecondaryHero.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
 
 	// Constants
@@ -28,12 +27,6 @@
   }
 ];
 </script>
-
-<SecondaryHero
-  title="AI design made for startups"
-  subtitle="Websites, decks, and ads — all in one tool to launch faster"
-  imageSrc="/mockups/airport-screen-1747954129966.png"
-/>
 
 <!-- Story Section -->
 <Story
