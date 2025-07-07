@@ -36,7 +36,7 @@ Please update features according to the company's product offering. Do not remov
 	// Props
 	const {
 		title = "Onboard to a great first draft in 2 minutes",
-		subtitle = "Then refine and upgrade when you're ready to move quicker and grow",
+		subtitle = "Then refine to go live in two days.",
 		features = [
 	{
 		name: "Deep Context",
