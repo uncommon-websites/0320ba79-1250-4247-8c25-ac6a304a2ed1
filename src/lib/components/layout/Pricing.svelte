@@ -115,7 +115,7 @@ Please update features according to the company's product offering. Do not remov
 			"Hosts your website"
 		],
 		cta: {
-			label: "Try free",
+			label: "Get started",
 			href: "/signup?plan=solo"
 		}
 	},
