@@ -67,11 +67,11 @@
 					{/each}
 				</div>
 				<article class="row-start-2">
-					<p class="text-body text-gray-500">{useCases[current].description}</p>
+					<p class="text-body text-gray-500">{useCases[current]?.description || ''}</p>
 					{#if useCases[current]?.link}
 						<div class="mt-6">
-							<Button href={useCases[current].link.href} variant="secondary">
-								{useCases[current].link.label}
+							<Button href={useCases[current].link?.href || '#'} variant="secondary">
+								{useCases[current].link?.label || 'Learn more'}
 							</Button>
 						</div>
 					{/if}
@@ -83,7 +83,7 @@
 				{#key useCases[current]?.image}
 					<img
 						transition:fade={{ easing: cubicInOut, duration: 200 }}
-						src={useCases[current].image}
+						src={useCases[current]?.image || ''}
 						alt="Featured use case"
 						loading="lazy"
 						class="grid-center aspect-[3/2] size-full max-h-full object-cover"

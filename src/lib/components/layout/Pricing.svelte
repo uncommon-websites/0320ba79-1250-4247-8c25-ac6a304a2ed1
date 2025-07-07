@@ -37,7 +37,6 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Start free. Pricing for every founder and team",
 		subtitle = "Upgrade when you're ready to move quicker and grow",
-		Uncommon Pro,
 		features = [
 	{
 		name: "Websites",
@@ -149,7 +148,7 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
-Uncommon Pro
+		name: "Uncommon Pro",
 		monthlyPrice: 149,
 		yearlyPrice: 119, // $119/mo paid yearly
 		description: "For small teams launching and growing.",
@@ -198,8 +197,6 @@ Uncommon Pro
 		subtitle?: string;
 		tiers?: PricingTier[];
 		features?: PricingFeature[];
-		tierNames?: string[];
-		caption?: string;
 	} = $props();
 
 	// State
@@ -350,9 +347,9 @@ Uncommon Pro
 							<th class="min-w-[120px] py-3 text-left">
 								<span class="sr-only">Feature</span>
 							</th>
-							{#each tierNames as tierName, i}
+							{#each tiers as tier, i}
 								<th class="text-caption min-w-[100px] py-3 text-left dark:text-white">
-									{tierName}
+									{tier.name}
 								</th>
 							{/each}
 						</tr>
@@ -363,17 +360,17 @@ Uncommon Pro
 								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
 									{feature.name}
 								</td>
-								{#each tierNames as tierName, i}
+								{#each tiers as tier, i}
 									<td class="py-3">
-										{#if typeof feature.tiers[tierName] === "boolean"}
-											{#if feature.tiers[tierName]}
+										{#if typeof feature.tiers[tier.name] === "boolean"}
+											{#if feature.tiers[tier.name]}
 												<span class="text-primary-900 dark:text-primary-400 size-5">✓</span>
 											{:else}
 												<span class="size-5 text-gray-400">✗</span>
 											{/if}
 										{:else}
 											<span class="text-callout font-medium text-gray-700 dark:text-gray-300">
-												{feature.tiers[tierName]}
+												{feature.tiers[tier.name]}
 											</span>
 										{/if}
 									</td>

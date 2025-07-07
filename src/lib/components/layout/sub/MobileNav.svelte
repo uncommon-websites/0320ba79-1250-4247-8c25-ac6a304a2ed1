@@ -125,7 +125,6 @@
 		size="lg"
 		variant="ghost"
 		hideLabel
-		suffix={null}
 		iconOnly
 		class="z-50 max-h-full"
 		onclick={() => (isMenuOpen = !isMenuOpen)}>Menu</Button

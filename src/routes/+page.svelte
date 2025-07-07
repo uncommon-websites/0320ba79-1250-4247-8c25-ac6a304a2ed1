@@ -30,7 +30,6 @@
 			imageSrc: "/uploaded/uploaded-image-20250524-003800.png"
 		}
 	]}
-	labels={["", "", "", "", "Merch"]}
 />
 
 <Summary
