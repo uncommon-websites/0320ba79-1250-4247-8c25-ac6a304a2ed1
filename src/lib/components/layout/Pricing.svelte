@@ -42,70 +42,70 @@ Please update features according to the company's product offering. Do not remov
 		name: "Deep Context",
 		description: "on customers, competitors & positioning",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Brand",
 		description: "colors, fonts, logos & guidelines",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Website",
 		description: "landing pages, product pages & portfolios",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Logo",
 		description: "brand marks, wordmarks & variations",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Decks",
 		description: "pitch decks, sales decks & presentations",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Snippets",
 		description: "marketing copy, headlines & taglines",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Story",
 		description: "company narrative, mission & vision",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	},
 	{
 		name: "Socials",
 		description: "posts, ads & social media content",
 		tiers: {
-			Solo: "Limited generations",
-			"Uncommon Pro": "Unlimited generations"
+			Plus: "Limited generations",
+			Pro: "Unlimited generations"
 		}
 	}
 ],
 		tiers = [
 	{
-		name: "Solo",
+		name: "Plus",
 		monthlyPrice: 79,
 		yearlyPrice: 59, // $59/mo paid yearly
 		description: "For solo founders validating ideas fast.",
@@ -124,7 +124,7 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
-		name: "Uncommon Pro",
+		name: "Pro",
 		monthlyPrice: 149,
 		yearlyPrice: 119, // $119/mo paid yearly
 		description: "For small teams launching and growing.",
@@ -301,7 +301,7 @@ Please update features according to the company's product offering. Do not remov
 			<!-- Universal pricing comparison for mobile -->
 			<div class="overflow-x-auto">
 				<table class="w-full border-collapse">
-					<!-- Sticky header without tier names -->
+					<!-- Sticky header with tier names -->
 					<thead class="border-border sticky top-0 z-10 border-b">
 						<tr>
 							<th class="min-w-[120px] py-3 text-left">
@@ -309,7 +309,7 @@ Please update features according to the company's product offering. Do not remov
 							</th>
 							{#each tiers as tier, i}
 								<th class="text-caption min-w-[100px] py-3 text-left dark:text-white">
-									<span class="sr-only">{tier.name}</span>
+									{tier.name}
 								</th>
 							{/each}
 						</tr>
