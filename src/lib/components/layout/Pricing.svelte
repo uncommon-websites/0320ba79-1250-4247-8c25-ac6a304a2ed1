@@ -35,8 +35,8 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Start free. Pricing for every founder and team",
-		subtitle = "Upgrade when you're ready to move quicker and grow",
+		title = "Onboard to a great first draft in 2 minutes",
+		subtitle = "Then refine and upgrade when you're ready to move quicker and grow",
 		features = [
 	{
 		name: "Deep Context",
