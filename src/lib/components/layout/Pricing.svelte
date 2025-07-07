@@ -308,7 +308,7 @@ Please update features according to the company's product offering. Do not remov
 								<span class="sr-only">Feature</span>
 							</th>
 							{#each tiers as tier, i}
-								<th class="text-caption min-w-[100px] py-3 text-left dark:text-white">
+								<th class="text-body min-w-[100px] py-3 text-left dark:text-white">
 									{tier.name}
 								</th>
 							{/each}
