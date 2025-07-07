@@ -106,5 +106,7 @@
 
 	{@render children()}
 
-	<Footer />
+	{#if $page.url.pathname !== '/pricing'}
+		<Footer />
+	{/if}
 </div>
