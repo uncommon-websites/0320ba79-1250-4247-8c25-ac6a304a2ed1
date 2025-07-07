@@ -1,7 +1,6 @@
-# Task: Remove Company Plan from Pricing
+# Task: Update Solo Plan Pricing
 
-- [x] Examine the Pricing component structure
-- [x] Identify how plans are defined and stored
-- [x] Remove the Company plan while keeping the other two plans
-- [x] Verify the layout works properly with two plans
+- [x] Update Solo plan monthly price from $49 to $79
+- [x] Update Solo plan yearly price from $79 to $59
+- [x] Verify changes are reflected correctly in the pricing component
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css

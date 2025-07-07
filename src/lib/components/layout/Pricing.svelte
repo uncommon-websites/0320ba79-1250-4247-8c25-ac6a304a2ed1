@@ -119,8 +119,8 @@ Please update features according to the company's product offering. Do not remov
 		tiers = [
 	{
 		name: "Solo",
-		monthlyPrice: 49,
-		yearlyPrice: 79, // $79/mo paid yearly
+		monthlyPrice: 79,
+		yearlyPrice: 59, // $59/mo paid yearly
 		description: "For solo founders validating ideas fast.",
 		features: [
 			"Up to 2 websites & decks",
