@@ -158,7 +158,10 @@ Please update features according to the company's product offering. Do not remov
 				<Button
 					variant="ghost"
 					size="sm"
-					class=" {!annual ? 'bg-white shadow-sm dark:bg-gray-700' : ''}"
+					class={[
+						"rounded-full",
+						!annual ? 'bg-white shadow-sm dark:bg-gray-700' : ''
+					]}
 					onclick={() => (annual = false)}
 				>
 					Monthly
@@ -166,8 +169,10 @@ Please update features according to the company's product offering. Do not remov
 				<Button
 					variant="ghost"
 					size="sm"
-					rounded
-					class={annual ? "bg-white shadow-sm dark:bg-gray-700" : ""}
+					class={[
+						"rounded-full",
+						annual ? "bg-white shadow-sm dark:bg-gray-700" : ""
+					]}
 					onclick={() => (annual = true)}
 				>
 					Annual <span class="text-primary-600 dark:text-primary-400 text-footnote">Save 20%</span>
