@@ -42,6 +42,11 @@
 
 		if (wordElements.length === 0) return;
 
+		// Set initial state to visible to prevent invisible text
+		wordElements.forEach(element => {
+			(element as HTMLElement).style.opacity = '1';
+		});
+
 		// Simplified animation to avoid TypeScript issues
 		scroll(
 			animate(
@@ -58,7 +63,7 @@
 			),
 			{
 				target: containerElement,
-				offset: ["start end", "center center"]
+				offset: ["start 0.8", "end 0.2"]
 			}
 		);
 	});
