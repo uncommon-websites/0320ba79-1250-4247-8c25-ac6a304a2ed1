@@ -37,7 +37,7 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Start free. Pricing for every founder and team",
 		subtitle = "Upgrade when you're ready to move quicker and grow",
-		tierNames = ["Solo", "Team", "Company"],
+		Uncommon Pro,
 		features = [
 	{
 		name: "Websites",
@@ -149,7 +149,7 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
-		name: "Team",
+Uncommon Pro
 		monthlyPrice: 149,
 		yearlyPrice: 119, // $119/mo paid yearly
 		description: "For small teams launching and growing.",
