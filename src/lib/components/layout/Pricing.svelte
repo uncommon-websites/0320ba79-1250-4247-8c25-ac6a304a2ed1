@@ -121,8 +121,8 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Pro",
-		monthlyPrice: 149,
-		yearlyPrice: 119, // $119/mo paid yearly
+		monthlyPrice: 249,
+		yearlyPrice: 199, // $199/mo paid yearly
 		description: "Unlimited edits to go far",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
@@ -159,7 +159,7 @@ Please update features according to the company's product offering. Do not remov
 					size="sm"
 					class={[
 						"rounded-full",
-						!annual ? 'bg-white shadow-sm dark:bg-gray-700' : ''
+						!annual ? 'bg-white shadow-sm dark:bg-gray-700 hover:bg-white dark:hover:bg-gray-700' : ''
 					]}
 					onclick={() => (annual = false)}
 				>
@@ -170,7 +170,7 @@ Please update features according to the company's product offering. Do not remov
 					size="sm"
 					class={[
 						"rounded-full",
-						annual ? "bg-white shadow-sm dark:bg-gray-700" : ""
+						annual ? "bg-white shadow-sm dark:bg-gray-700 hover:bg-white dark:hover:bg-gray-700" : ""
 					]}
 					onclick={() => (annual = true)}
 				>

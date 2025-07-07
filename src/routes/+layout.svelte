@@ -102,7 +102,9 @@
 	class:touch={isTouchDevice.current === true}
 	class:no-touch={isTouchDevice.current !== true}
 >
-	<Nav />
+	{#if page.url.searchParams.get("embed") !== "true"}
+		<Nav />
+	{/if}
 
 	{@render children()}
 
