@@ -1,9 +1,8 @@
-# Task: Modify Pricing Table Structure
+# Task: Update Pricing Table Structure
 
-- [x] Update features array to remove tier-specific descriptions
-- [x] Modify table header to remove tier column headers
-- [ ] Update table rows to include tier names inline with feature names
-- [ ] Style tier names with smaller font and lighter gray color
-- [ ] Replace all table cell content with generation limits ("limited generation" for Solo, "unlimited generations" for Uncommon Pro)
-- [ ] Test responsive design still works properly
-- [ ] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
+- [x] Add descriptions to features array for each feature (Deep Context, Brand, Website, etc.)
+- [x] Update table rendering to show feature descriptions in smaller, lighter gray text
+- [x] Ensure Solo column shows "limited generation" for all rows
+- [x] Ensure Uncommon Pro column shows "unlimited generations" for all rows
+- [x] Test the updated table layout and styling
+- [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css

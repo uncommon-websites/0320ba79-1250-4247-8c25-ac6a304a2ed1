@@ -20,6 +20,7 @@ Please update features according to the company's product offering. Do not remov
 
 	type PricingFeature = {
 		name: string;
+		description: string;
 		tiers: {
 			[key: string]: boolean | string;
 		};
@@ -39,6 +40,7 @@ Please update features according to the company's product offering. Do not remov
 		features = [
 	{
 		name: "Deep Context",
+		description: "on customers, competitors & positioning",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -46,6 +48,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Brand",
+		description: "colors, fonts, logos & guidelines",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -53,6 +56,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Website",
+		description: "landing pages, product pages & portfolios",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -60,6 +64,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Logo",
+		description: "brand marks, wordmarks & variations",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -67,6 +72,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Decks",
+		description: "pitch decks, sales decks & presentations",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -74,6 +80,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Snippets",
+		description: "marketing copy, headlines & taglines",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -81,6 +88,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Story",
+		description: "company narrative, mission & vision",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -88,6 +96,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Socials",
+		description: "posts, ads & social media content",
 		tiers: {
 			Solo: "limited generation",
 			"Uncommon Pro": "unlimited generations"
@@ -310,12 +319,8 @@ Please update features according to the company's product offering. Do not remov
 							<tr>
 								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
 									{feature.name}
-									<div class="flex gap-4 mt-1">
-										{#each tiers as tier}
-											<span class="text-sm text-gray-500 dark:text-gray-400">
-												{tier.name}
-											</span>
-										{/each}
+									<div class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+										{feature.description}
 									</div>
 								</td>
 								{#each tiers as tier, i}
