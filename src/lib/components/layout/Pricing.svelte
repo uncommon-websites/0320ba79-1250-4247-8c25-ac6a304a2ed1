@@ -42,64 +42,64 @@ Please update features according to the company's product offering. Do not remov
 		name: "Deep Context",
 		description: "on customers, competitors & positioning",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Brand",
 		description: "full brandbook including colors & font",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Website",
 		description: "design & hosting",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Logo",
 		description: "wordmark & logomark",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Decks",
 		description: "Google Slides master template",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Snippets",
 		description: "for investors & growth",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Story",
 		description: "your founding ethos",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	},
 	{
 		name: "Socials",
 		description: "assets for Linkedin & X",
 		tiers: {
-			Plus: "Limited generations",
-			Pro: "Unlimited generations"
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
 		}
 	}
 ],
