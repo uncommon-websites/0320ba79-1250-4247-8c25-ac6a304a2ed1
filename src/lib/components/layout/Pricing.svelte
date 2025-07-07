@@ -116,7 +116,7 @@ Please update features according to the company's product offering. Do not remov
 		],
 		cta: {
 			label: "Get started",
-			href: "/signup?plan=solo"
+			href: "https://www.unc.mn/"
 		}
 	},
 	{
@@ -131,7 +131,7 @@ Please update features according to the company's product offering. Do not remov
 		],
 		cta: {
 			label: "Get started",
-			href: "/signup?plan=team"
+			href: "https://www.unc.mn/"
 		},
 		highlight: true
 	}
