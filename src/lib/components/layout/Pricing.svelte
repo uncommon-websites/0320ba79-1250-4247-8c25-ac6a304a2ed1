@@ -146,6 +146,7 @@ Please update features according to the company's product offering. Do not remov
 
 	// State
 	let annual = $state(true);
+	// LogoScroller component has been completely removed
 </script>
 
 <section class="section-py section-px container mx-auto">
