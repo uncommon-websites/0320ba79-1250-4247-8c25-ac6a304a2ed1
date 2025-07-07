@@ -39,80 +39,59 @@ Please update features according to the company's product offering. Do not remov
 		subtitle = "Upgrade when you're ready to move quicker and grow",
 		features = [
 	{
-		name: "Websites",
+		name: "Deep Context",
 		tiers: {
-			Solo: "2",
-			Team: "Unlimited"
+			Solo: "on customers, competitors & positioning",
+			"Uncommon Pro": "on customers, competitors & positioning"
 		}
 	},
 	{
-		name: "Pitch decks",
+		name: "Brand",
 		tiers: {
-			Solo: "2",
-			Team: "Unlimited"
+			Solo: "full brandbook including colors & font",
+			"Uncommon Pro": "full brandbook including colors & font"
 		}
 	},
 	{
-		name: "Ads & landing pages",
+		name: "Website",
 		tiers: {
-			Solo: "Basic templates",
-			Team: "AI-generated variants"
+			Solo: "design & hosting",
+			"Uncommon Pro": "design & hosting"
 		}
 	},
 	{
-		name: "Users",
+		name: "Logo",
 		tiers: {
-			Solo: "1",
-			Team: "5"
+			Solo: "wordmark & logomark",
+			"Uncommon Pro": "wordmark & logomark"
 		}
 	},
 	{
-		name: "Team collaboration",
+		name: "Decks",
 		tiers: {
-			Solo: false,
-			Team: "Real-time & permissions"
+			Solo: "Google Slides master template",
+			"Uncommon Pro": "Google Slides master template"
 		}
 	},
 	{
-		name: "AI workflows",
+		name: "Snippets",
 		tiers: {
-			Solo: "Website/one-pager generator",
-			Team: "Full decks, ads, landing iterations"
+			Solo: "for investors & growth",
+			"Uncommon Pro": "for investors & growth"
 		}
 	},
 	{
-		name: "Export",
+		name: "Story",
 		tiers: {
-			Solo: "Download & share links",
-			Team: "PDF/HTML/Notion"
+			Solo: "your founding ethos",
+			"Uncommon Pro": "your founding ethos"
 		}
 	},
 	{
-		name: "Branding",
+		name: "Socials",
 		tiers: {
-			Solo: "Uncommon branding",
-			Team: "Custom fonts, logos, colors"
-		}
-	},
-	{
-		name: "Integrations",
-		tiers: {
-			Solo: "Notion, Figma",
-			Team: "Webflow, Google Slides, Notion, Figma"
-		}
-	},
-	{
-		name: "Support",
-		tiers: {
-			Solo: "Community",
-			Team: "Priority email"
-		}
-	},
-	{
-		name: "Onboarding",
-		tiers: {
-			Solo: "Self-serve",
-			Team: "Live onboarding call"
+			Solo: "assets for Linkedin & X",
+			"Uncommon Pro": "assets for Linkedin & X"
 		}
 	}
 ],
