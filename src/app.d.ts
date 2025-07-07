@@ -8,6 +8,16 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+	
+	// Add Node.js process types to resolve vite.config.ts error
+	namespace NodeJS {
+		interface Process {
+			cwd(): string;
+			env: Record<string, string | undefined>;
+		}
+	}
+	
+	declare var process: NodeJS.Process;
 }
 
 export {};
