@@ -31,7 +31,6 @@ Please update features according to the company's product offering. Do not remov
 	// import IconCheck from "~icons/lucide/check";
 	// import IconX from "~icons/lucide/x";
 	import NumberFlow from "@number-flow/svelte";
-	import LogoScroller from "./LogoScroller.svelte";
 
 	// Props
 	const {
@@ -333,7 +332,6 @@ Please update features according to the company's product offering. Do not remov
 			</div>
 		</div>
 	</div>
-	<LogoScroller />
 </section>
 
 <style lang="postcss">
