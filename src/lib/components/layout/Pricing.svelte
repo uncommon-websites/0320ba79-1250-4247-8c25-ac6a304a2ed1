@@ -108,7 +108,7 @@ Please update features according to the company's product offering. Do not remov
 		name: "Plus",
 		monthlyPrice: 79,
 		yearlyPrice: 59, // $59/mo paid yearly
-		description: "For solo founders validating ideas fast.",
+		description: "Limited edits to get started",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
 			"Generates your website, logo, decks, snippets, story & socials",
