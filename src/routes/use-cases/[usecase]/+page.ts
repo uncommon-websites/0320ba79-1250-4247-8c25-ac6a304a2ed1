@@ -45,7 +45,7 @@ type UseCase = {
 		callsToAction: Array<{
 			href: string;
 			label: string;
-			variant?: "primary" | "secondary" | "outline" | "ghost" | "link";
+			variant?: "primary" | "secondary" | "ghost";
 		}>;
 	};
 };
@@ -281,7 +281,7 @@ const technologyUseCase: UseCase = {
 	}
 };
 
-const educationUseCase = {
+const educationUseCase: UseCase = {
 	meta: {
 		title: "Education",
 		description: "Educational solutions for institutions of all levels"

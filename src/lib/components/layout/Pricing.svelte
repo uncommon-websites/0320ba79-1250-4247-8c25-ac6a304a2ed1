@@ -42,88 +42,77 @@ Please update features according to the company's product offering. Do not remov
 		name: "Websites",
 		tiers: {
 			Solo: "2",
-			Team: "Unlimited",
-			Company: "Unlimited"
+			Team: "Unlimited"
 		}
 	},
 	{
 		name: "Pitch decks",
 		tiers: {
 			Solo: "2",
-			Team: "Unlimited",
-			Company: "Unlimited"
+			Team: "Unlimited"
 		}
 	},
 	{
 		name: "Ads & landing pages",
 		tiers: {
 			Solo: "Basic templates",
-			Team: "AI-generated variants",
-			Company: "Advanced AI campaigns"
+			Team: "AI-generated variants"
 		}
 	},
 	{
 		name: "Users",
 		tiers: {
 			Solo: "1",
-			Team: "5",
-			Company: "Unlimited"
+			Team: "5"
 		}
 	},
 	{
 		name: "Team collaboration",
 		tiers: {
 			Solo: false,
-			Team: "Real-time & permissions",
-			Company: "Advanced roles & workflows"
+			Team: "Real-time & permissions"
 		}
 	},
 	{
 		name: "AI workflows",
 		tiers: {
 			Solo: "Website/one-pager generator",
-			Team: "Full decks, ads, landing iterations",
-			Company: "Custom models & content"
+			Team: "Full decks, ads, landing iterations"
 		}
 	},
 	{
 		name: "Export",
 		tiers: {
 			Solo: "Download & share links",
-			Team: "PDF/HTML/Notion",
-			Company: "All + white-label links"
+			Team: "PDF/HTML/Notion"
 		}
 	},
 	{
 		name: "Branding",
 		tiers: {
 			Solo: "Uncommon branding",
-			Team: "Custom fonts, logos, colors",
-			Company: "Design tokens, full system"
+			Team: "Custom fonts, logos, colors"
 		}
 	},
 	{
 		name: "Integrations",
 		tiers: {
 			Solo: "Notion, Figma",
-			Team: "Webflow, Google Slides, Notion, Figma",
-			Company: "Custom pipelines, API access"
+			Team: "Webflow, Google Slides, Notion, Figma"
 		}
 	},
 	{
 		name: "Support",
 		tiers: {
 			Solo: "Community",
-			Team: "Priority email",
-			Company: "Dedicated manager + Slack"
+			Team: "Priority email"
 		}
 	},
 	{
 		name: "Onboarding",
 		tiers: {
 			Solo: "Self-serve",
-			Team: "Live onboarding call",
-			Company: "Dedicated setup & training"
+			Team: "Live onboarding call"
 		}
 	}
 ],
@@ -168,28 +157,6 @@ Please update features according to the company's product offering. Do not remov
 			href: "/signup?plan=team"
 		},
 		highlight: true
-	},
-	{
-		name: "Company",
-		monthlyPrice: null,
-		yearlyPrice: null,
-		description: "For scaling startups needing advanced tools & support.",
-		features: [
-			"Everything in Team",
-			"Unlimited users",
-			"Advanced AI campaigns",
-			"Advanced roles & workflows",
-			"Custom models and outputs",
-			"All export types & white-label links",
-			"Full brand system, design tokens",
-			"Custom integrations & API access",
-			"Dedicated manager, Slack support",
-			"Dedicated onboarding & training"
-		],
-		cta: {
-			label: "Contact sales",
-			href: "/contact"
-		}
 	}
 ]
 	}: {
@@ -230,7 +197,7 @@ Please update features according to the company's product offering. Do not remov
 		</div>
 	</div>
 
-	<div class="bb grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+	<div class="bb grid gap-6 md:grid-cols-2">
 		{#each tiers as tier}
 			<div
 				class="flex flex-col rounded-xl bg-white p-6 ring ring-gray-200 transition-all duration-300 dark:bg-gray-800 dark:ring-gray-700"
