@@ -40,7 +40,7 @@ Please update features according to the company's product offering. Do not remov
 		features = [
 	{
 		name: "Deep Context",
-		description: "on customers, competitors & positioning",
+		description: "on your company, customers & competitors",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
