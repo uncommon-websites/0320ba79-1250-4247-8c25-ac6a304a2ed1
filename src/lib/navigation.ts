@@ -113,6 +113,12 @@ export const navigation: NavItem[] = [
 				href: "/careers",
 				showInNav: true,
 				showInFooter: true
+			},
+			{
+				label: "Terms & Conditions",
+				href: "/legal/terms",
+				showInNav: true,
+				showInFooter: false
 			}
 		]
 	},
