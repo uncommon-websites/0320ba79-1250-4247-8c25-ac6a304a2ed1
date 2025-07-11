@@ -61,37 +61,6 @@ export const navigation: NavItem[] = [
 		showInFooter: false
 	},
 	{
-		label: "Use Cases",
-		showInNav: true,
-		showInFooter: true,
-		children: [
-			{
-        label: "Find early traction",
-        href: "/use-cases/product-market-fit",
-        image: "/generated/image-a-diverse-startup-founder-team-collabora.webp",
-        description: "Launch messaging and landing pages to validate your idea and get real signal fast.",
-        showInNav: true,
-        showInFooter: true
-      },
-      {
-        label: "Raise your next round",
-        href: "/use-cases/fundraising",
-        image: "/generated/image-a-confident-startup-founder-delivering-a.webp",
-        description: "Build investor decks that tell a sharp story — clearly, visually and confidently.",
-        showInNav: true,
-        showInFooter: true
-      },
-      {
-        label: "Attract great talent",
-        href: "/use-cases/team-recruiting",
-        image: "/generated/image-a-small-tech-team-welcoming-new-hires-in.webp",
-        description: "Design branded job pages that help you pitch your mission and convert top candidates.",
-        showInNav: true,
-        showInFooter: true
-      }
-		]
-	},
-	{
 		label: "Company",
 		showInNav: true,
 		showInFooter: true,
