@@ -10,7 +10,7 @@
 	<title>{data.meta.title} | {CONFIG.companyName}</title>
 	<meta name="description" content={data.meta.description} />
 </svelte:head>
-<div class="section-px section-py container mx-auto max-w-prose">
+<div class="section-px section-py container mx-auto max-w-4xl">
 	<div class="mx-auto max-w-3xl">
 		<header class="mb-20">
 		</header>
