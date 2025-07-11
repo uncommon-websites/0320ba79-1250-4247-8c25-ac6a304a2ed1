@@ -10,29 +10,13 @@
 	<title>{data.meta.title} | {CONFIG.companyName}</title>
 	<meta name="description" content={data.meta.description} />
 </svelte:head>
-<div class="section-px section-py container mx-auto max-w-prose">
+<div class="section-px section-py container mx-auto max-w-4xl">
 	<div class="mx-auto max-w-3xl">
-		<header class="mb-20">
-			<h1 class="text-title1">{data.meta.title}</h1>
-
-			<p class="text-body text-emphasis-low">
-				Last updated: {new Date(data.content.lastUpdated).toLocaleDateString("en-US", {
-					year: "numeric",
-					month: "long",
-					day: "numeric"
-				})}
-			</p>
+		<header class="mb-10">
 		</header>
 
-		<main class="grid gap-12">
-			{#each data.content.sections as section}
-				<section>
-					<h2 class="text-headline mb-3">{section.title}</h2>
-					<p class="text-body text-gray-700">
-						{section.body}
-					</p>
-				</section>
-			{/each}
+		<main>
+			<div name="termly-embed" data-id="2bbb5149-297f-4953-b690-10cffbae5ebe"></div>
 		</main>
 	</div>
 </div>
