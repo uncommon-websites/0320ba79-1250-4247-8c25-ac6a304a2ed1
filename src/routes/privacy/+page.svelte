@@ -13,7 +13,6 @@
 <div class="section-px section-py container mx-auto max-w-prose">
 	<div class="mx-auto max-w-3xl">
 		<header class="mb-20">
-			<h1 class="text-title1">{data.meta.title}</h1>
 		</header>
 
 		<main>
