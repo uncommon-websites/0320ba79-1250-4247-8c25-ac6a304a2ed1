@@ -108,7 +108,7 @@
 
 	{@render children()}
 
-	{#if page.url.pathname !== "/pricing" && page.url.pathname !== "/terms" && page.url.pathname !== "/privacy"}
+	{#if page.url.pathname !== "/" && page.url.pathname !== "/pricing" && page.url.pathname !== "/terms" && page.url.pathname !== "/privacy"}
 		<Footer />
 	{/if}
 </div>
