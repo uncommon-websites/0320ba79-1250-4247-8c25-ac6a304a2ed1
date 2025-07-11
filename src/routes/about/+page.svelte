@@ -1,6 +1,7 @@
 <script lang="ts">
 	// Components
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
+	import Summary from "$lib/components/layout/Summary.svelte";
 
 	// Icons
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
@@ -35,6 +36,12 @@
 		"That’s why we built Uncommon. After founding and advising multiple startups, Thilo Konzok saw the same problem again and again: visionary founders stuck trying to be designers and marketers. Uncommon is an AI Designer built specifically for startups. It creates your website, pitch deck, job posts, fundraising pages and more—in minutes, not weeks. Just tell Uncommon what your startup does, and it does the rest.",
 		"Unlike traditional tools, Uncommon doesn’t start with a blank canvas. It starts with intent: you’re trying to raise, hire, or sell. Then it builds what you need—to win that investor meeting, attract the right candidate, launch with credibility, or explain your vision clearly. What used to take a team now takes a few inputs. It's not about decorating, it's about doing the real work faster—and looking great while you do it."
 	]}
+/>
+
+<!-- Summary Section -->
+<Summary
+	title="Our mission"
+	text="We believe every startup deserves to look and sound like the company they're becoming, not the company they are today. Uncommon transforms how founders communicate their vision—turning weeks of design work into minutes of focused input. Because when you're building the future, your tools should work as fast as your ideas."
 />
 
 <!-- Our Culture Section -->
