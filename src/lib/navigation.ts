@@ -115,6 +115,12 @@ export const navigation: NavItem[] = [
 				showInFooter: true
 			},
 			{
+				label: "Privacy",
+				href: "/privacy",
+				showInNav: true,
+				showInFooter: true
+			},
+			{
 				label: "Terms & Conditions",
 				href: "/terms",
 				showInNav: true,
