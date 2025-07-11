@@ -42,12 +42,15 @@
 
 		if (wordElements.length === 0) return;
 
-		// Set initial state to visible to prevent invisible text
+		// Set initial state for animation
 		wordElements.forEach(element => {
-			(element as HTMLElement).style.opacity = '1';
+			const el = element as HTMLElement;
+			el.style.opacity = '0';
+			el.style.transform = 'translateY(1em)';
+			el.style.filter = 'blur(8px)';
 		});
 
-		// Simplified animation to avoid TypeScript issues
+		// Create scroll-triggered animation
 		scroll(
 			animate(
 				wordElements,
@@ -58,7 +61,8 @@
 				},
 				{
 					delay: stagger(0.015),
-					ease: "easeInOut"
+					ease: "easeInOut",
+					duration: 0.8
 				}
 			),
 			{
@@ -83,7 +87,7 @@
 		{#each segments as paragraph, i}
 			<p class="mb-[1.5em] last:mb-0 text-center">
 				{#each paragraph.split(" ").filter(Boolean) as word}
-					<span class="word relative inline-block transition duration-150 ease-out">{word}</span
+					<span class="word relative inline-block">{word}</span
 					>{" "}
 				{/each}
 			</p>

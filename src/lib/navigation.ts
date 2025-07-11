@@ -66,7 +66,7 @@ export const navigation: NavItem[] = [
 		showInFooter: true,
 		children: [
 			{
-				label: "About us",
+				label: "About",
 				href: "/about",
 				showInNav: true,
 				showInFooter: true

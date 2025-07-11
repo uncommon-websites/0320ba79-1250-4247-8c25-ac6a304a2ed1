@@ -18,7 +18,7 @@
 <NavigationMenu.Trigger class="group/item inline-flex h-full items-center gap-1">
 	{item.label}
 	<span
-		class="relative top-[1px] size-3 opacity-80 transition duration-200 ease-out group-hover/item:opacity-100 group-data-[state=open]:rotate-180 "
+		class="relative top-[1px] size-3 opacity-80 transition duration-200 ease-out group-hover/item:opacity-100 group-data-[state=open]:rotate-180"
 		aria-hidden="true"
 	>▼</span>
 </NavigationMenu.Trigger>

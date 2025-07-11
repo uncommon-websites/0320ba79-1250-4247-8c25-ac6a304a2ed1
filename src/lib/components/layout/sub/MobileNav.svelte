@@ -127,7 +127,7 @@
 		hideLabel
 		iconOnly
 		class="z-50 max-h-full"
-		onclick={() => (isMenuOpen = !isMenuOpen)}>Menu</Button
+		onclick={() => (isMenuOpen = !isMenuOpen)}><IconMenu /></Button
 	>
 </div>
 
