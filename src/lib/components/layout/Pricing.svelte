@@ -223,15 +223,7 @@ Please update features according to the company's product offering. Do not remov
 					</ul>
 				</div>
 
-				<div class="mt-auto">
-					<Button
-						href={tier.cta.href}
-						variant={tier.highlight ? "primary" : "secondary"}
-						class="w-full"
-					>
-						{tier.cta.label}
-					</Button>
-				</div>
+				<!-- Buttons removed as requested -->
 			</div>
 		{/each}
 	</div>
