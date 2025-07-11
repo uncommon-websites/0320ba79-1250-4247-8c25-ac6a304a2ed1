@@ -116,7 +116,7 @@ export const navigation: NavItem[] = [
 			},
 			{
 				label: "Terms & Conditions",
-				href: "/legal/terms",
+				href: "/terms",
 				showInNav: true,
 				showInFooter: false
 			}
@@ -135,7 +135,7 @@ export const navigation: NavItem[] = [
 			},
 			{
 				label: "Terms",
-				href: "/legal/terms",
+				href: "/terms",
 				showInNav: false,
 				showInFooter: true
 			}
