@@ -7,8 +7,8 @@
 
 <CustomerCardHero
 	centered={true}
-	title="Design that sells, in seconds"
-	subtitle="Skip the expensive agency. Uncommon gives early-stage founders instant, AI-powered branding, websites, and decks—built for startups that move fast."
+	title="Designs that sell, in seconds"
+	subtitle="Uncommon turns your idea into a brand, website, and pitch deck—automatically. No designers, no delays, no $20K fees."
 	customers={[
 		{
 			name: "Brand",
