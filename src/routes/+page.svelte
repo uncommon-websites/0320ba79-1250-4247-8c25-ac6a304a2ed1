@@ -7,8 +7,8 @@
 
 <CustomerCardHero
 	centered={true}
-	title="Designed to sell, hire, raise."
-	subtitle="Your website, deck, ads and more—all in one tool built to help founders sell, hire and raise."
+	title="Brand, website, and deck — done in an hour"
+	subtitle="Uncommon turns your startup idea into investor-ready design assets instantly. No agencies. No back-and-forth. No $20K invoice."
 	customers={[
 		{
 			name: "Brand",
