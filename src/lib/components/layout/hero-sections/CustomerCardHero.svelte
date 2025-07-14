@@ -87,7 +87,7 @@ It should ALWAYS have between 3 and 5 customers!
 					// isTitleComplete ? "opacity-100" : "translate-y-2 opacity-0 blur-sm"
 				]}
 			>
-				The company building tool for founders that find PMF fast.
+				{subtitle}
 			</p>
 		</div>
 
