@@ -311,7 +311,7 @@ Please update features according to the company's product offering. Do not remov
 							<!-- Category header row -->
 							<tr class="border-b border-gray-100 dark:border-gray-800">
 								<td class="py-3 pr-8 lg:pr-0">
-									<h4 class="text-body font-semibold text-gray-900 dark:text-white">
+									<h4 class="text-base font-medium text-gray-900 dark:text-white">
 										{feature.name}
 									</h4>
 								</td>

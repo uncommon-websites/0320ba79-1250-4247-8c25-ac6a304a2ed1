@@ -1,6 +1,5 @@
-# Task: Remove Plus and Pro from Top of Pricing Table
+# Task: Match Section Title Font with Tier Names
 
-- [x] Remove tier names ("Plus" and "Pro") from the sticky header row at the very top of the pricing table
-- [x] Keep tier names in the category header rows (those should remain)
-- [x] Ensure table structure remains intact
+- [x] View current Pricing component styling
+- [x] Update section title font to match "Plus" and "Pro" styling exactly
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css
