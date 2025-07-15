@@ -324,14 +324,31 @@ Please update features according to the company's product offering. Do not remov
 							<!-- Category header row -->
 							<tr>
 								<td colspan={tiers.length + 1} class="py-4 px-0">
-									<h4 class="text-body font-semibold text-gray-900 dark:text-white">
-										{feature.name}
-									</h4>
+									<div class="flex items-center justify-between">
+										<h4 class="text-body font-semibold text-gray-900 dark:text-white">
+											{feature.name}
+										</h4>
+										<div class="flex gap-8">
+											{#each tiers as tier}
+												<span class="text-sm font-medium text-gray-600 dark:text-gray-400">
+													{tier.name}
+												</span>
+											{/each}
+										</div>
+									</div>
 								</td>
 							</tr>
 							
 							<!-- Feature items for this category -->
 							{#each feature.description.split('\n') as line, lineIndex}
+								{#if lineIndex === 0}
+									<!-- Add line above first subpoint -->
+									<tr>
+										<td colspan={tiers.length + 1} class="py-2">
+											<div class="border-t border-gray-200 dark:border-gray-700"></div>
+										</td>
+									</tr>
+								{/if}
 								<tr class="border-b border-gray-100 dark:border-gray-800">
 									<td class="py-3 pr-8 lg:pr-0">
 										<div class="flex items-center gap-2">
@@ -351,10 +368,10 @@ Please update features according to the company's product offering. Do not remov
 								</tr>
 							{/each}
 							
-							<!-- Add spacing between categories -->
+							<!-- Add spacing between categories (70% increase from py-2 to py-3.5) -->
 							{#if featureIndex < features.length - 1}
 								<tr>
-									<td colspan={tiers.length + 1} class="py-2"></td>
+									<td colspan={tiers.length + 1} class="py-3.5"></td>
 								</tr>
 							{/if}
 						{/each}
