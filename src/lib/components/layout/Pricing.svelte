@@ -322,7 +322,7 @@ Please update features according to the company's product offering. Do not remov
 					<tbody>
 						{#each features as feature, featureIndex}
 							<!-- Category header row -->
-							<tr class="bg-gray-50 dark:bg-gray-800">
+							<tr>
 								<td colspan={tiers.length + 1} class="py-4 px-0">
 									<h4 class="text-body font-semibold text-gray-900 dark:text-white">
 										{feature.name}
@@ -341,13 +341,11 @@ Please update features according to the company's product offering. Do not remov
 									</td>
 									{#each tiers as tier, i}
 										<td class="py-3">
-											{#if lineIndex === 0}
-												<span class="text-lg font-medium text-gray-700 dark:text-gray-300">
-													{feature.tiers[tier.name]}
-												</span>
-											{:else}
-												<span class="text-gray-400 dark:text-gray-500">—</span>
-											{/if}
+											<span class="text-base text-gray-700 dark:text-gray-300">
+												{feature.tiers[tier.name] === "Limited edits" ? "Limited" : 
+												 feature.tiers[tier.name] === "Unlimited edits" ? "Unlimited" : 
+												 feature.tiers[tier.name]}
+											</span>
 										</td>
 									{/each}
 								</tr>
