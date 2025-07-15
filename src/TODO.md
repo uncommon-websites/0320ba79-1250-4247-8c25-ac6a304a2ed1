@@ -1,8 +1,6 @@
-# Task: Fix Pricing Table Layout
+# Task: Remove darker line in each category in pricing table
 
-- [x] Remove the separate tier names display in category header
-- [x] Modify category header to show tier names in same columns as values
-- [x] Ensure Plus aligns with "Limited" and Pro aligns with "Unlimited"
-- [x] Make category header styling consistent with feature lines
-- [x] Test the layout to ensure proper alignment
+- [x] Identify the darker line element in the pricing table
+- [x] Remove the darker separator line above first subpoint in each category
+- [x] Verify table structure remains intact
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css

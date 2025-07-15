@@ -339,14 +339,6 @@ Please update features according to the company's product offering. Do not remov
 							
 							<!-- Feature items for this category -->
 							{#each feature.description.split('\n') as line, lineIndex}
-								{#if lineIndex === 0}
-									<!-- Add line above first subpoint -->
-									<tr>
-										<td colspan={tiers.length + 1} class="py-2">
-											<div class="border-t border-gray-200 dark:border-gray-700"></div>
-										</td>
-									</tr>
-								{/if}
 								<tr class="border-b border-gray-100 dark:border-gray-800">
 									<td class="py-3 pr-8 lg:pr-0">
 										<div class="flex items-center gap-2">
