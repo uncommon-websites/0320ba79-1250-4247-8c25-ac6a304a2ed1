@@ -306,19 +306,6 @@ Please update features according to the company's product offering. Do not remov
 		<div>
 			<div class="overflow-x-auto">
 				<table class="w-full border-collapse">
-					<!-- Sticky header with tier names -->
-					<thead class="border-border sticky top-0 z-10 border-b bg-white dark:bg-gray-900">
-						<tr>
-							<th class="min-w-[120px] py-3 text-left">
-								<span class="sr-only">Feature</span>
-							</th>
-							{#each tiers as tier, i}
-								<th class="text-body min-w-[100px] py-3 text-left dark:text-white">
-									<!-- Tier name removed from top header -->
-								</th>
-							{/each}
-						</tr>
-					</thead>
 					<tbody>
 						{#each features as feature, featureIndex}
 							<!-- Category header row -->
