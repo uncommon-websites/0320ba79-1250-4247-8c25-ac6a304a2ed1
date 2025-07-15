@@ -214,7 +214,7 @@ Please update features according to the company's product offering. Do not remov
 				class:translate-y-[-4px]={tier.highlight}
 			>
 				<div class="mb-8">
-					<h3 class="text-title3 mb-4 dark:text-white">{tier.name}</h3>
+					<h3 class="text-title3 mb-4 text-gray-400 dark:text-gray-500">{tier.name}</h3>
 					<div class="mt-2 flex items-baseline">
 						{#if tier.monthlyPrice === null && tier.yearlyPrice === null}
 							<span class="text-title2 dark:text-white">Custom</span>
@@ -317,7 +317,7 @@ Please update features according to the company's product offering. Do not remov
 								</td>
 								{#each tiers as tier}
 									<td class="py-3">
-										<span class="text-base font-medium text-gray-700 dark:text-gray-300">
+										<span class="text-base font-medium text-gray-400 dark:text-gray-500">
 											{tier.name}
 										</span>
 									</td>
