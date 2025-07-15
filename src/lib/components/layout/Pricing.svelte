@@ -106,16 +106,16 @@ Please update features according to the company's product offering. Do not remov
 		name: "Announcements",
 		description: "Generate Hiring posts\nGenerate Fundraise Announcements\nRefine with feedback",
 		tiers: {
-			Plus: "Coming soon",
-			Pro: "Coming soon"
+			Plus: "Soon",
+			Pro: "Soon"
 		}
 	},
 	{
 		name: "Merch",
 		description: "Designs shirts, hoodies & more\nRefine with feedback\nOrder directly",
 		tiers: {
-			Plus: "Coming soon",
-			Pro: "Coming soon"
+			Plus: "Soon",
+			Pro: "Soon"
 		}
 	},
 	{
