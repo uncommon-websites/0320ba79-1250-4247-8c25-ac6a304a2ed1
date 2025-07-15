@@ -302,13 +302,12 @@ Please update features according to the company's product offering. Do not remov
 			</table>
 		</div> -->
 
-		<!-- Mobile feature comparison (alternative view for very small screens) -->
+		<!-- Feature comparison grouped by category -->
 		<div>
-			<!-- Universal pricing comparison for mobile -->
 			<div class="overflow-x-auto">
 				<table class="w-full border-collapse">
 					<!-- Sticky header with tier names -->
-					<thead class="border-border sticky top-0 z-10 border-b">
+					<thead class="border-border sticky top-0 z-10 border-b bg-white dark:bg-gray-900">
 						<tr>
 							<th class="min-w-[120px] py-3 text-left">
 								<span class="sr-only">Feature</span>
@@ -320,28 +319,46 @@ Please update features according to the company's product offering. Do not remov
 							{/each}
 						</tr>
 					</thead>
-					<tbody class="divide-border divide-y">
-						{#each features as feature}
-							<tr>
-								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
-									{feature.name}
-									<div class="text-base text-gray-500 dark:text-gray-400 mt-1" style="line-height: 2.1;">
-										{#each feature.description.split('\n') as line}
-								<div class="flex items-center gap-1">
-									<span class="text-primary-600 dark:text-primary-400 flex-shrink-0">✓</span>
-									<span>{line}</span>
-								</div>
-							{/each}
-									</div>
+					<tbody>
+						{#each features as feature, featureIndex}
+							<!-- Category header row -->
+							<tr class="bg-gray-50 dark:bg-gray-800">
+								<td colspan={tiers.length + 1} class="py-4 px-0">
+									<h4 class="text-body font-semibold text-gray-900 dark:text-white">
+										{feature.name}
+									</h4>
 								</td>
-								{#each tiers as tier, i}
-									<td class="py-3">
-										<span class="text-lg font-medium text-gray-700 dark:text-gray-300" style="line-height: 2.24;">
-											{feature.tiers[tier.name]}
-										</span>
-									</td>
-								{/each}
 							</tr>
+							
+							<!-- Feature items for this category -->
+							{#each feature.description.split('\n') as line, lineIndex}
+								<tr class="border-b border-gray-100 dark:border-gray-800">
+									<td class="py-3 pr-8 lg:pr-0">
+										<div class="flex items-center gap-2">
+											<span class="text-primary-600 dark:text-primary-400 flex-shrink-0">✓</span>
+											<span class="text-base text-gray-600 dark:text-gray-400">{line}</span>
+										</div>
+									</td>
+									{#each tiers as tier, i}
+										<td class="py-3">
+											{#if lineIndex === 0}
+												<span class="text-lg font-medium text-gray-700 dark:text-gray-300">
+													{feature.tiers[tier.name]}
+												</span>
+											{:else}
+												<span class="text-gray-400 dark:text-gray-500">—</span>
+											{/if}
+										</td>
+									{/each}
+								</tr>
+							{/each}
+							
+							<!-- Add spacing between categories -->
+							{#if featureIndex < features.length - 1}
+								<tr>
+									<td colspan={tiers.length + 1} class="py-2"></td>
+								</tr>
+							{/if}
 						{/each}
 					</tbody>
 				</table>
