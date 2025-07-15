@@ -40,7 +40,7 @@ Please update features according to the company's product offering. Do not remov
 		features = [
 	{
 		name: "Context",
-		description: "Deep Research your company, customers & competitors - Upload deck & memo - Scrape existing website - Forms the base for all assets",
+		description: "Deep Research your company, customers & competitors\nUpload deck & memo\nScrape existing website\nForms the base for all assets",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -48,7 +48,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Brand",
-		description: "Add Brand Inspiration - Full brandbook including colors & typography",
+		description: "Add Brand Inspiration\nFull brandbook including colors & typography",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -56,7 +56,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Website",
-		description: "Design that fits your brand - Refine with feedback - From teaser pages to websites with 100+ pages - Edit text directly - Comment on the canvas - Upload your images - Adjust designs according to images you upload - Live Preview of your drafts - Add Custom Domain - Versioning, go back indefinitely - Hosting for your website - Custom Code - Add Analytics - Code Export (on Annual Plan)",
+		description: "Design that fits your brand\nRefine with feedback\nFrom teaser pages to websites with 100+ pages\nEdit text directly\nComment on the canvas\nUpload your images\nAdjust designs according to images you upload\nLive Preview of your drafts\nAdd Custom Domain\nVersioning, go back indefinitely\nHosting for your website\nCustom Code\nAdd Analytics\nCode Export (on Annual Plan)",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -64,7 +64,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Logo",
-		description: "Design that fits your brand - Refine with feedback - Full logopack including wordmark & logomark - Mockups that include your logo - Upload your existing logo - PNG & SVG export",
+		description: "Design that fits your brand\nRefine with feedback\nFull logopack including wordmark & logomark\nMockups that include your logo\nUpload your existing logo\nPNG & SVG export",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -72,7 +72,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Decks",
-		description: "Google Slides master template - Refine with feedback - PDF & PPT export - Use as base for sales and fundraising decks",
+		description: "Google Slides master template\nRefine with feedback\nPDF & PPT export\nUse as base for sales and fundraising decks",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -80,7 +80,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Snippets",
-		description: "Text blocks to use for fundraising & growth - Email, Twitter & Linkedin DM templates - Refine with feedback - Applications for YC & Arc",
+		description: "Text blocks to use for fundraising & growth\nEmail, Twitter & Linkedin DM templates\nRefine with feedback\nApplications for YC & Arc",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -88,7 +88,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Story",
-		description: "Writes your founding story - Refine with feedback - Export to use in deck or website",
+		description: "Writes your founding story\nRefine with feedback\nExport to use in deck or website",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -96,7 +96,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Socials",
-		description: "Headers, Icons & all assets for Linkedin - Headers, Icons & all assets for Linkedin - Refine with feedback",
+		description: "Headers, Icons & all assets for Linkedin\nHeaders, Icons & all assets for Twitter\nRefine with feedback",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -104,7 +104,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Announcements (Soon)",
-		description: "Generate Hiring posts - Generate Fundraise Announcements - Refine with feedback",
+		description: "Generate Hiring posts\nGenerate Fundraise Announcements\nRefine with feedback",
 		tiers: {
 			Plus: "Coming soon",
 			Pro: "Coming soon"
@@ -112,7 +112,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Merch (Soon)",
-		description: "Designs shirts, hoodies & more - Refine with feedback - Order direclty",
+		description: "Designs shirts, hoodies & more\nRefine with feedback\nOrder directly",
 		tiers: {
 			Plus: "Coming soon",
 			Pro: "Coming soon"
@@ -326,7 +326,9 @@ Please update features according to the company's product offering. Do not remov
 								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
 									{feature.name}
 									<div class="text-sm text-gray-500 dark:text-gray-400 mt-1">
-										{feature.description}
+										{#each feature.description.split('\n') as line}
+								<div>{line}</div>
+							{/each}
 									</div>
 								</td>
 								{#each tiers as tier, i}
