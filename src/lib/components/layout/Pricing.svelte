@@ -103,7 +103,7 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
-		name: "Announcements (Soon)",
+		name: "Announcements",
 		description: "Generate Hiring posts\nGenerate Fundraise Announcements\nRefine with feedback",
 		tiers: {
 			Plus: "Coming soon",
@@ -111,7 +111,7 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
-		name: "Merch (Soon)",
+		name: "Merch",
 		description: "Designs shirts, hoodies & more\nRefine with feedback\nOrder directly",
 		tiers: {
 			Plus: "Coming soon",
@@ -122,8 +122,8 @@ Please update features according to the company's product offering. Do not remov
 		name: "Other",
 		description: "Collaborate with your team",
 		tiers: {
-			Plus: "Limited edits",
-			Pro: "Unlimited edits"
+			Plus: "✓",
+			Pro: "✓"
 		}
 	}
 ],
@@ -329,7 +329,6 @@ Please update features according to the company's product offering. Do not remov
 								<tr class="border-b border-gray-100 dark:border-gray-800">
 									<td class="py-3 pr-8 lg:pr-0">
 										<div class="flex items-center gap-2">
-											<span class="text-primary-600 dark:text-primary-400 flex-shrink-0">✓</span>
 											<span class="text-base text-gray-600 dark:text-gray-400">{line}</span>
 										</div>
 									</td>
