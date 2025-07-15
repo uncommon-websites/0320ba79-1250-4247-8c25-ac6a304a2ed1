@@ -327,7 +327,10 @@ Please update features according to the company's product offering. Do not remov
 									{feature.name}
 									<div class="text-sm text-gray-500 dark:text-gray-400 mt-1">
 										{#each feature.description.split('\n') as line}
-								<div>{line}</div>
+								<div class="flex items-start gap-1">
+									<span class="text-primary-600 dark:text-primary-400 flex-shrink-0 mt-0.5">✓</span>
+									<span>{line}</span>
+								</div>
 							{/each}
 									</div>
 								</td>
