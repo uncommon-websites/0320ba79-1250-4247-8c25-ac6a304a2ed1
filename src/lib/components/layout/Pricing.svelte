@@ -314,7 +314,7 @@ Please update features according to the company's product offering. Do not remov
 							</th>
 							{#each tiers as tier, i}
 								<th class="text-body min-w-[100px] py-3 text-left dark:text-white">
-									{tier.name}
+									<!-- Tier name removed from top header -->
 								</th>
 							{/each}
 						</tr>
