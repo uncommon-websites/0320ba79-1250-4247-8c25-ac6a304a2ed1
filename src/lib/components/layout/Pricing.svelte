@@ -339,7 +339,7 @@ Please update features according to the company's product offering. Do not remov
 							
 							<!-- Feature items for this category -->
 							{#each feature.description.split('\n') as line, lineIndex}
-								<!-- REMOVED -->
+								{#if lineIndex === 0}
 									<!-- Add line above first subpoint -->
 									<tr>
 										<td colspan={tiers.length + 1} class="py-2">
