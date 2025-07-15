@@ -39,8 +39,8 @@ Please update features according to the company's product offering. Do not remov
 		subtitle = "Refine to go live in two hours.",
 		features = [
 	{
-		name: "Deep Context",
-		description: "on your company, customers & competitors",
+		name: "Context",
+		description: "Deep Research your company, customers & competitors - Upload deck & memo - Scrape existing website - Forms the base for all assets",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -48,7 +48,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Brand",
-		description: "full brandbook including colors & font",
+		description: "Add Brand Inspiration - Full brandbook including colors & typography",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -56,7 +56,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Website",
-		description: "design & hosting",
+		description: "Design that fits your brand - Refine with feedback - From teaser pages to websites with 100+ pages - Edit text directly - Comment on the canvas - Upload your images - Adjust designs according to images you upload - Live Preview of your drafts - Add Custom Domain - Versioning, go back indefinitely - Hosting for your website - Custom Code - Add Analytics - Code Export (on Annual Plan)",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -64,7 +64,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Logo",
-		description: "wordmark & logomark",
+		description: "Design that fits your brand - Refine with feedback - Full logopack including wordmark & logomark - Mockups that include your logo - Upload your existing logo - PNG & SVG export",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -72,7 +72,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Decks",
-		description: "Google Slides master template",
+		description: "Google Slides master template - Refine with feedback - PDF & PPT export - Use as base for sales and fundraising decks",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -80,7 +80,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Snippets",
-		description: "for investors & growth",
+		description: "Text blocks to use for fundraising & growth - Email, Twitter & Linkedin DM templates - Refine with feedback - Applications for YC & Arc",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -88,7 +88,7 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Story",
-		description: "your founding ethos",
+		description: "Writes your founding story - Refine with feedback - Export to use in deck or website",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
@@ -96,7 +96,31 @@ Please update features according to the company's product offering. Do not remov
 	},
 	{
 		name: "Socials",
-		description: "assets for Linkedin & X",
+		description: "Headers, Icons & all assets for Linkedin - Headers, Icons & all assets for Linkedin - Refine with feedback",
+		tiers: {
+			Plus: "Limited edits",
+			Pro: "Unlimited edits"
+		}
+	},
+	{
+		name: "Announcements (Soon)",
+		description: "Generate Hiring posts - Generate Fundraise Announcements - Refine with feedback",
+		tiers: {
+			Plus: "Coming soon",
+			Pro: "Coming soon"
+		}
+	},
+	{
+		name: "Merch (Soon)",
+		description: "Designs shirts, hoodies & more - Refine with feedback - Order direclty",
+		tiers: {
+			Plus: "Coming soon",
+			Pro: "Coming soon"
+		}
+	},
+	{
+		name: "Other",
+		description: "Collaborate with your team",
 		tiers: {
 			Plus: "Limited edits",
 			Pro: "Unlimited edits"
