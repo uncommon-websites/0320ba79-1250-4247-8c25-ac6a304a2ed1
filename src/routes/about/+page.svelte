@@ -1,7 +1,7 @@
-<script lang="ts">
-	// Components
-	import CallToAction from "$lib/components/layout/CallToAction.svelte";
-	import Summary from "$lib/components/layout/Summary.svelte";
+<script lang=\"ts\">
+\t\/\/ About page with all sections removed
+\/\/ imports removed
+\/\/ removed
 
 	// Icons
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
@@ -29,7 +29,7 @@
 ];
 </script>
 
-<!-- Story Section -->
+<!-- All sections have been removed as requested -->
 <Story
 	paragraphs={[
 		"Startups don’t fail because founders can’t code—they fail because they can’t communicate. In the early days, everything is on your shoulders. You’re building the product, meeting investors, making hires—and somehow also expected to write taglines, design decks, and launch landing pages. Most founders spend weeks trying to look and sound like a real company, when what they really need is something that just works.",
