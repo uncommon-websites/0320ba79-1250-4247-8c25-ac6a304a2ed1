@@ -347,6 +347,11 @@ Please update features according to the company's product offering. Do not remov
 				</table>
 			</div>
 		</div>
+		
+		<!-- Fair Use notice -->
+		<div class="mt-6 text-center">
+			<p class="text-sm text-gray-400 dark:text-gray-500">Fair Use applies</p>
+		</div>
 	</div>
 </section>
 
