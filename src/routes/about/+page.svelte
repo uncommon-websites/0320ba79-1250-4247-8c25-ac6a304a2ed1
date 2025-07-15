@@ -3,10 +3,12 @@
 \/\/ imports removed
 \/\/ removed
 
-	// Icons
+	// Components
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
+	import Summary from "$lib/components/layout/Summary.svelte";
+	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Constants
 	const values = [
