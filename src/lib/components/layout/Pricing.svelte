@@ -325,7 +325,7 @@ Please update features according to the company's product offering. Do not remov
 							<tr>
 								<td class="text-body py-3 pr-8 font-medium lg:pr-0 dark:text-white">
 									{feature.name}
-									<div class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+									<div class="text-base text-gray-500 dark:text-gray-400 mt-1" style="line-height: 2.1;">
 										{#each feature.description.split('\n') as line}
 								<div class="flex items-center gap-1">
 									<span class="text-primary-600 dark:text-primary-400 flex-shrink-0">✓</span>
@@ -336,7 +336,7 @@ Please update features according to the company's product offering. Do not remov
 								</td>
 								{#each tiers as tier, i}
 									<td class="py-3">
-										<span class="text-callout font-medium text-gray-700 dark:text-gray-300">
+										<span class="text-lg font-medium text-gray-700 dark:text-gray-300" style="line-height: 2.24;">
 											{feature.tiers[tier.name]}
 										</span>
 									</td>
