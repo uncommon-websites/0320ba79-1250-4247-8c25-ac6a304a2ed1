@@ -1,14 +1,12 @@
-<script lang=\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components"ts\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components">
-\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page componentst\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/ About page with all sections removed
-\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/ imports removed
-\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/\\/ removed/\\/ removed// imports removed/\\/ removed/\\/ removed// imports removed// About page with all sections removed/\\/ removed/\\/ removed// imports removed//\\/ removed/\\/ removed// imports removed// About page components/ removed
-
+<script lang="ts">
 	// Components
+	import CallToAction from "$lib/components/layout/CallToAction.svelte";
+	import Summary from "$lib/components/layout/Summary.svelte";
+
+	// Icons
 	import StakeholderGrid from "$lib/components/layout/StakeholderGrid.svelte";
 	import Story from "./Story.svelte";
 	import Culture from "$lib/components/layout/Culture.svelte";
-	import Summary from "$lib/components/layout/Summary.svelte";
-	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 
 	// Constants
 	const values = [
@@ -31,7 +29,7 @@
 ];
 </script>
 
-<!-- All sections have been removed as requested -->
+<!-- Story Section -->
 <Story
 	paragraphs={[
 		"Startups don’t fail because founders can’t code—they fail because they can’t communicate. In the early days, everything is on your shoulders. You’re building the product, meeting investors, making hires—and somehow also expected to write taglines, design decks, and launch landing pages. Most founders spend weeks trying to look and sound like a real company, when what they really need is something that just works.",
