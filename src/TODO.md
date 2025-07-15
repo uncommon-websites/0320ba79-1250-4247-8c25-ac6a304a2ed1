@@ -1,6 +1,8 @@
-# Task: Update Pricing Table Layout
+# Task: Fix Pricing Table Layout
 
-- [x] Increase gap between sections by 70% (from py-2 to py-3.5 or similar)
-- [x] Add horizontal line above first subpoint of each category
-- [x] Add Plus and Pro labels next to each section title on the right side
+- [x] Remove the separate tier names display in category header
+- [x] Modify category header to show tier names in same columns as values
+- [x] Ensure Plus aligns with "Limited" and Pro aligns with "Unlimited"
+- [x] Make category header styling consistent with feature lines
+- [x] Test the layout to ensure proper alignment
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values, check theme.css, app.css and typography.css

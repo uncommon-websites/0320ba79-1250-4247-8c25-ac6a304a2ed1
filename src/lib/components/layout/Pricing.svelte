@@ -322,21 +322,19 @@ Please update features according to the company's product offering. Do not remov
 					<tbody>
 						{#each features as feature, featureIndex}
 							<!-- Category header row -->
-							<tr>
-								<td colspan={tiers.length + 1} class="py-4 px-0">
-									<div class="flex items-center justify-between">
-										<h4 class="text-body font-semibold text-gray-900 dark:text-white">
-											{feature.name}
-										</h4>
-										<div class="flex gap-8">
-											{#each tiers as tier}
-												<span class="text-sm font-medium text-gray-600 dark:text-gray-400">
-													{tier.name}
-												</span>
-											{/each}
-										</div>
-									</div>
+							<tr class="border-b border-gray-100 dark:border-gray-800">
+								<td class="py-3 pr-8 lg:pr-0">
+									<h4 class="text-body font-semibold text-gray-900 dark:text-white">
+										{feature.name}
+									</h4>
 								</td>
+								{#each tiers as tier}
+									<td class="py-3">
+										<span class="text-base font-medium text-gray-700 dark:text-gray-300">
+											{tier.name}
+										</span>
+									</td>
+								{/each}
 							</tr>
 							
 							<!-- Feature items for this category -->
