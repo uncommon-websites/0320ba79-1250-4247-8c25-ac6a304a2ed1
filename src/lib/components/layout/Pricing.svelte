@@ -369,4 +369,11 @@ Please update features according to the company's product offering. Do not remov
 	:global(number-flow-svelte)::part(suffix) {
 		@apply text-sm text-gray-400 dark:text-gray-500;
 	}
+
+	/* Mobile spacing for Pro column - 75% increase */
+	@media (max-width: 767px) {
+		table td:nth-child(3) {
+			padding-left: 3.5rem; /* 75% increase from default spacing */
+		}
+	}
 </style>
