@@ -33,6 +33,18 @@
 	]}
 />
 
+<!-- Simple section with Apple-inspired design -->
+<section class="section-py section-px">
+	<div class="mx-auto max-w-4xl text-center">
+		<h2 class="text-title2 text-emphasis-high mb-4">
+			Designed for founders who need to move fast
+		</h2>
+		<p class="text-callout text-emphasis-medium max-w-2xl mx-auto">
+			Skip the months of back-and-forth with designers who don't understand your startup. Get professional design that actually converts, delivered in hours instead of weeks.
+		</p>
+	</div>
+</section>
+
 <BentoGrid />
 
 <Summary
