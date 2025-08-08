@@ -60,7 +60,7 @@
 		<!-- Header -->
 		<div class="text-center mb-16">
 			<h2 class="text-display text-emphasis-high mb-4">
-				Everything you need to build, sell, and raise.
+				Everything you need to build, sell, and hire.
 			</h2>
 			<p class="text-callout text-emphasis-medium max-w-2xl mx-auto">
 				From brand identity to pitch decks, get all your design needs covered in one powerful platform built specifically for startup founders.
