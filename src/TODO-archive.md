@@ -1,5 +1,10 @@
+# Todo Archive
+
+
+## Session: 2025-09-11T15:49:19.380Z
+
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-09-11T15:50:11.265Z -->
+<!-- Updated: 2025-07-31T13:04:56.328Z -->
 
 # Current Todo List State
 
@@ -10,8 +15,5 @@
 - [x] Add appropriate description and features for the Concierge tier
 - [x] Test the layout works well on mobile with 3 pricing cards
 - [x] Final design system compliance check - verify design system classes prioritized over Tailwind, NO shadows, NO custom CSS, NO arbitrary values
-- [x] Update Plus plan monthly price from $79 to $29
-- [x] Update Plus plan annual price from $59 to $25
-- [x] Add new Portraits section to features array with specified features
-- [x] Verify pricing changes display correctly
-- [x] Final design system compliance check
+
+──────────────────────────────────────────────────

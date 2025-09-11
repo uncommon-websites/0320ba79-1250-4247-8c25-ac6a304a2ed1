@@ -48,6 +48,15 @@ Please update features according to the company's product offering. Do not remov
 		}
 	},
 	{
+		name: "Portraits",
+		description: "Fits your brand\nUnifies look",
+		tiers: {
+			Plus: "Limited edits",
+			Pro: "Unlimited edits",
+			Concierge: "Custom builds"
+		}
+	},
+	{
 		name: "Brand",
 		description: "Add Brand Inspiration\nFull brandbook including colors & typography",
 		tiers: {
@@ -141,8 +150,8 @@ Please update features according to the company's product offering. Do not remov
 		tiers = [
 	{
 		name: "Plus",
-		monthlyPrice: 79,
-		yearlyPrice: 59, // $59/mo paid yearly
+		monthlyPrice: 29,
+		yearlyPrice: 25, // $25/mo paid yearly
 		description: "Limited edits to go fast",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
@@ -255,7 +264,7 @@ Please update features according to the company's product offering. Do not remov
 										currency: "USD",
 										trailingZeroDisplay: "stripIfInteger"
 									}}
-									value={tier.yearlyPrice * 12}
+									value={(tier.yearlyPrice ?? 0) * 12}
 								/>
 								<span class="text-caption text-gray-400 dark:text-gray-500">per year</span>
 							</div>
