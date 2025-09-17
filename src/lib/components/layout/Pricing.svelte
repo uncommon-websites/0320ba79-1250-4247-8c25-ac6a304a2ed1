@@ -155,7 +155,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Limited edits to go fast",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
-			"Generates your website, logo, decks, snippets, story & socials",
+			"Generates your website, logo, portraits, decks, snippets, story & socials",
 			"Hosts your website"
 		],
 		cta: {
@@ -170,7 +170,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Unlimited edits to go far",
 		features: [
 			"Designs brand with deep context on your company, customers & competitors",
-			"Generates your website, logo, decks, snippets, story & socials",
+			"Generates your website, logo, portraits, decks, snippets, story & socials",
 			"Hosts your website"
 		],
 		cta: {
