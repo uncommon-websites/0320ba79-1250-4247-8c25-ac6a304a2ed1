@@ -43,8 +43,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Deep Research your company, customers & competitors\nMonitor your competition\nUpload deck & memo\nScrape existing website",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -52,8 +51,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Fits your brand\nUnifies look",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -61,8 +59,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Add Brand Inspiration\nFull brandbook including colors & typography",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -70,8 +67,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Design that fits your brand\nRefine with feedback\nFrom teaser pages to websites with 100+ pages\nEdit text directly\nComment on the canvas\nUpload your images\nAdjust designs according to images you upload\nLive Preview of your drafts\nAdd Custom Domain\nVersioning, go back indefinitely\nHosting for your website\nCustom Code\nAdd Analytics\nCode Export (on Annual Plan)",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -79,8 +75,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Design that fits your brand\nRefine with feedback\nFull logopack including wordmark & logomark\nMockups that include your logo\nUpload your existing logo\nPNG & SVG export",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -88,8 +83,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Google Slides master template\nRefine with feedback\nPDF & PPT export\nUse as base for sales and fundraising decks",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -97,8 +91,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Text blocks to use for fundraising & growth\nEmail, Twitter & Linkedin DM templates\nRefine with feedback\nApplications for YC & Arc",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -106,8 +99,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Writes your founding story\nRefine with feedback\nExport to use in deck or website",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -115,8 +107,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Headers, Icons & all assets for Linkedin\nHeaders, Icons & all assets for Twitter\nRefine with feedback",
 		tiers: {
 			Plus: "Limited edits",
-			Pro: "Unlimited edits",
-			Concierge: "Custom builds"
+			Pro: "Unlimited edits"
 		}
 	},
 	{
@@ -124,8 +115,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Generate Hiring posts\nGenerate Fundraise Announcements\nRefine with feedback",
 		tiers: {
 			Plus: "Coming soon",
-			Pro: "Coming soon",
-			Concierge: "✓"
+			Pro: "Coming soon"
 		}
 	},
 	{
@@ -133,8 +123,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Designs shirts, hoodies & more\nRefine with feedback\nOrder directly",
 		tiers: {
 			Plus: "Coming soon",
-			Pro: "Coming soon",
-			Concierge: "✓"
+			Pro: "Coming soon"
 		}
 	},
 	{
@@ -142,8 +131,7 @@ Please update features according to the company's product offering. Do not remov
 		description: "Collaborate with your team",
 		tiers: {
 			Plus: "✓",
-			Pro: "✓",
-			Concierge: "✓"
+			Pro: "✓"
 		}
 	}
 ],
@@ -178,22 +166,6 @@ Please update features according to the company's product offering. Do not remov
 			href: "https://www.unc.mn/"
 		},
 		highlight: true
-	},
-	{
-		name: "Concierge",
-		monthlyPrice: null,
-		yearlyPrice: 2000, // $24,000/year = $2000/mo equivalent for display
-		description: "Dedicated design engineer builds all your assets",
-		features: [
-			"Dedicated design engineer assigned to your account",
-			"Custom builds all your design assets on Uncommon platform",
-			"Unlimited revisions and priority support",
-			"Direct communication with your design engineer"
-		],
-		cta: {
-			label: "Contact sales",
-			href: "https://www.unc.mn/"
-		}
 	}
 ]
 	}: {
@@ -240,7 +212,7 @@ Please update features according to the company's product offering. Do not remov
 		</div>
 	</div>
 
-	<div class="bb grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+	<div class="bb grid gap-6 md:grid-cols-2">
 		{#each tiers as tier}
 			<div
 				class="flex flex-col rounded-xl bg-white p-6 ring ring-gray-200 transition-all duration-300 dark:bg-gray-800 dark:ring-gray-700"
@@ -255,7 +227,7 @@ Please update features according to the company's product offering. Do not remov
 						{#if tier.monthlyPrice === null && tier.yearlyPrice === null}
 							<span class="text-title2 dark:text-white">Custom</span>
 						{:else if tier.monthlyPrice === null}
-							<!-- Yearly-only pricing (like Concierge) -->
+							<!-- Yearly-only pricing -->
 							<div class="flex flex-col">
 								<NumberFlow
 									class="text-title2 dark:text-white"
@@ -420,10 +392,10 @@ Please update features according to the company's product offering. Do not remov
 		@apply text-sm text-gray-400 dark:text-gray-500;
 	}
 
-	/* Mobile spacing for Pro column - 75% increase */
+	/* Mobile spacing for Pro column */
 	@media (max-width: 767px) {
 		table td:nth-child(3) {
-			padding-left: 3.5rem; /* 75% increase from default spacing */
+			padding-left: 2rem;
 		}
 	}
 </style>

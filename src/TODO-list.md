@@ -1,5 +1,5 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2025-09-11T15:50:11.265Z -->
+<!-- Updated: 2025-09-18T04:37:22.524Z -->
 
 # Current Todo List State
 
@@ -15,3 +15,9 @@
 - [x] Add new Portraits section to features array with specified features
 - [x] Verify pricing changes display correctly
 - [x] Final design system compliance check
+- [x] Remove Concierge tier from the tiers array in Pricing.svelte
+- [x] Remove Concierge references from all features in the features array
+- [x] Update grid layout from 3 columns back to 2 columns
+- [x] Clean up any Concierge-specific pricing display logic
+- [x] Verify the layout works well with 2 pricing cards
+- [x] Run comprehensive error check and fix all issues
