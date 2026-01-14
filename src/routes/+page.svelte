@@ -6,15 +6,15 @@
 	];
 
 	const features = [
-		{ title: "Brand System", description: "Typography, colors, tone of voice, and Tailwind export." },
-		{ title: "Website", description: "Full design, code, and hosting with custom domain." },
-		{ title: "Decks", description: "Sales and fundraising presentations in Google Slides." },
-		{ title: "Snippets", description: "Pre-written YC/Arc applications and social templates." },
-		{ title: "Portraits", description: "Unified team headshots in 30+ professional styles." },
-		{ title: "Story", description: "Compelling narratives for fundraising and sales." },
-		{ title: "Socials", description: "X and LinkedIn headers, icons, and optimized bios." },
-		{ title: "Ads", description: "Marketing creative generation for growth." },
-		{ title: "Competition", description: "Continuous monitoring of your competitive landscape." }
+		{ title: "Brand System", description: "Typography, colors, tone of voice, and Tailwind export.", icon: "M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" },
+		{ title: "Website", description: "Full design, code, and hosting with custom domain and code export.", icon: "M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" },
+		{ title: "Decks", description: "Sales and fundraising presentations in Google Slides and PDF/PPT.", icon: "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" },
+		{ title: "Snippets", description: "Pre-written YC/Arc applications and social media templates.", icon: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" },
+		{ title: "Portraits", description: "Unified team headshots in 30+ styles with custom style uploads.", icon: "M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" },
+		{ title: "Story", description: "Compelling customer narratives for fundraising and sales.", icon: "M4 19.5A2.5 2.5 0 0 1 6.5 17H20" },
+		{ title: "Socials", description: "X and LinkedIn headers, icons, and optimized platform bios.", icon: "M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" },
+		{ title: "Ads", description: "Marketing creative generation for growth and performance.", icon: "M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" },
+		{ title: "Competition", description: "Continuous monitoring of your competitive landscape automatically.", icon: "M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" }
 	];
 
 	const successStories = [
@@ -49,7 +49,7 @@
 	<!-- Hero Section -->
 	<section class="max-w-7xl mx-auto px-6 pt-20 pb-32 grid lg:grid-cols-2 gap-16 items-center">
 		<div>
-			<h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8 text-purple-600">
+			<h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8">
 				Look like the company you're building
 			</h1>
 			<p class="text-xl text-gray-500 leading-relaxed mb-10 max-w-lg">
@@ -62,7 +62,9 @@
 				<div class="flex items-center gap-3 px-2">
 					<div class="flex -space-x-2">
 						{#each [1, 2, 3] as i}
-							<div class="w-8 h-8 rounded-full border-2 border-white bg-gray-200"></div>
+							<div class="w-8 h-8 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+								<img src="https://api.dicebear.com/7.x/avataaars/svg?seed={i}" alt="Founder" class="w-full h-full object-cover" />
+							</div>
 						{/each}
 					</div>
 					<span class="text-sm text-gray-500 font-medium">Joined by 100+ Sequoia founders</span>
@@ -71,7 +73,7 @@
 		</div>
 		<div class="relative">
 			<img 
-				src="/generated/image-a-minimalist-high-end-design-studio-work-1768413760903-0.webp" 
+				src="/generated/image-a-high-end-minimalist-brand-identity-sys-1768420665592-0.webp" 
 				alt="Uncommon Brand Identity System" 
 				class="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9]"
 			/>
@@ -125,7 +127,7 @@
 				</div>
 			</div>
 			<div class="grid grid-cols-2 gap-4">
-				<img src="/generated/image-a-diverse-group-of-young-ambitious-start-1768413774835-1.webp" alt="Founders collaborating" class="rounded-2xl w-full aspect-square object-cover" />
+				<img src="/generated/image-a-group-of-diverse-ambitious-startup-fou-1768420778558-1.webp" alt="Founders collaborating" class="rounded-2xl w-full aspect-square object-cover" />
 				<div class="bg-black text-white p-8 rounded-2xl flex flex-col justify-end">
 					<p class="text-3xl font-bold mb-2">$50B</p>
 					<p class="text-sm text-gray-400">Design market being disrupted by automation</p>
@@ -134,7 +136,7 @@
 					<p class="text-3xl font-bold mb-2">30+</p>
 					<p class="text-sm text-gray-500">Companies advised by our founding team</p>
 				</div>
-				<img src="/generated/image-a-professional-authentic-portrait-of-a-t-1768413787009-2.webp" alt="Founder portrait" class="rounded-2xl w-full aspect-square object-cover" />
+				<img src="/generated/image-a-professional-authentic-portrait-of-a-t-1768420845484-2.webp" alt="Founder portrait" class="rounded-2xl w-full aspect-square object-cover" />
 			</div>
 		</div>
 	</section>
@@ -149,7 +151,7 @@
 			{#each features as feature}
 				<div class="p-8 rounded-3xl border border-gray-100 hover:border-black transition-colors group">
 					<div class="w-12 h-12 bg-gray-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-black group-hover:text-white transition-colors">
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"/></svg>
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d={feature.icon}/></svg>
 					</div>
 					<h3 class="text-xl font-bold mb-3">{feature.title}</h3>
 					<p class="text-gray-500 leading-relaxed">{feature.description}</p>
@@ -258,7 +260,7 @@
 					</p>
 					<div class="flex items-center gap-6">
 						<div class="w-16 h-16 bg-gray-200 rounded-full overflow-hidden">
-							<img src="/generated/image-a-professional-authentic-portrait-of-a-t-1768413787009-2.webp" alt="Thilo Konzok" class="w-full h-full object-cover" />
+							<img src="/generated/image-a-professional-authentic-portrait-of-a-t-1768420845484-2.webp" alt="Thilo Konzok" class="w-full h-full object-cover" />
 						</div>
 						<div>
 							<p class="font-bold">Thilo Konzok</p>
