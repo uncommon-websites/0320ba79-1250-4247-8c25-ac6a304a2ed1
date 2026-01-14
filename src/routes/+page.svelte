@@ -49,7 +49,7 @@
 	<!-- Hero Section -->
 	<section class="max-w-7xl mx-auto px-6 pt-20 pb-32 grid lg:grid-cols-2 gap-16 items-center">
 		<div>
-			<h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-8">
+			<h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-8">
 				Look like the company you're building
 			</h1>
 			<p class="text-xl text-gray-500 leading-relaxed mb-10 max-w-lg">
