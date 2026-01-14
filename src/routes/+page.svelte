@@ -71,13 +71,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="relative">
-			<img 
-				src="/generated/image-a-high-end-minimalist-brand-identity-sys-1768420665592-0.webp" 
-				alt="Uncommon Brand Identity System" 
-				class="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9]"
-			/>
-		</div>
 	</section>
 
 	<!-- Social Proof -->
