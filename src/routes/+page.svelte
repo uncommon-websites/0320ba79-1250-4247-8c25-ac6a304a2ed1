@@ -281,7 +281,7 @@
 				<p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
 					Join the next generation of Sequoia-backed founders. Generate your brand system, website, and decks today.
 				</p>
-				<button class="bg-white text-black px-10 py-5 rounded-full text-xl font-bold hover:bg-gray-200 transition-colors">
+				<button class="bg-red-600 text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-red-700 transition-colors">
 					Start Your Identity
 				</button>
 			</div>
@@ -351,5 +351,8 @@
 		</div>
 	</footer>
 </div>
+
+
+
 
 
