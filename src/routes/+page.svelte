@@ -77,17 +77,6 @@
 				alt="Uncommon Brand Identity System" 
 				class="rounded-3xl shadow-2xl w-full object-cover aspect-[16/9]"
 			/>
-			<div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl hidden md:block border border-gray-100">
-				<div class="flex items-center gap-4 mb-2">
-					<div class="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center">
-						<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-					</div>
-					<div>
-						<p class="text-sm font-bold">Brand System</p>
-						<p class="text-xs text-gray-400">Generated in 14s</p>
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
 
