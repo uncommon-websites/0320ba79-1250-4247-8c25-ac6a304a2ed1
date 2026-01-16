@@ -47,29 +47,27 @@
 	</header>
 
 	<!-- Hero Section -->
-	<section class="max-w-7xl mx-auto px-6 pt-20 pb-32">
-		<h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-12">
-			Look like the company you're building
-		</h1>
-		<div class="grid lg:grid-cols-2 gap-16 items-center">
-			<div>
-				<p class="text-xl text-gray-500 leading-relaxed mb-10 max-w-lg">
-					Your idea feels like a billion-dollar business. Uncommon helps it look the part—instantly. Generate a complete brand and website in minutes, not months.
-				</p>
-				<div class="flex flex-col sm:flex-row gap-4">
-					<button class="bg-black text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-gray-800 transition-colors">
-						Start Building
-					</button>
-					<div class="flex items-center gap-3 px-2">
-						<div class="flex -space-x-2">
-							{#each [1, 2, 3] as i}
-								<div class="w-8 h-8 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
-									<img src="https://api.dicebear.com/7.x/avataaars/svg?seed={i}" alt="Founder" class="w-full h-full object-cover" />
-								</div>
-							{/each}
-						</div>
-						<span class="text-sm text-gray-500 font-medium">Joined by 100+ Sequoia founders</span>
+	<section class="max-w-7xl mx-auto px-6 pt-20 pb-32 grid lg:grid-cols-2 gap-16 items-center">
+		<div>
+			<h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-8">
+				Look like the company you're building
+			</h1>
+			<p class="text-xl text-gray-500 leading-relaxed mb-10 max-w-lg">
+				Your idea feels like a billion-dollar business. Uncommon helps it look the part—instantly. Generate a complete brand and website in minutes, not months.
+			</p>
+			<div class="flex flex-col sm:flex-row gap-4">
+				<button class="bg-red-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-red-700 transition-colors">
+					Start Building
+				</button>
+				<div class="flex items-center gap-3 px-2">
+					<div class="flex -space-x-2">
+						{#each [1, 2, 3] as i}
+							<div class="w-8 h-8 rounded-full border-2 border-white bg-gray-200 overflow-hidden">
+								<img src="https://api.dicebear.com/7.x/avataaars/svg?seed={i}" alt="Founder" class="w-full h-full object-cover" />
+							</div>
+						{/each}
 					</div>
+					<span class="text-sm text-gray-500 font-medium">Joined by 100+ Sequoia founders</span>
 				</div>
 			</div>
 		</div>
