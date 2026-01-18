@@ -49,7 +49,7 @@
 	<!-- Hero Section -->
 	<section class="max-w-7xl mx-auto px-6 pt-20 pb-32 grid lg:grid-cols-2 gap-16 items-center">
 		<div>
-			<h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-8">
+			<h1 class="text-6xl md:text-8xl font-bold tracking-tight leading-[1.1] mb-8 text-red-600">
 				Look like the company you're building
 			</h1>
 			<p class="text-xl text-gray-500 leading-relaxed mb-10 max-w-lg">
@@ -69,19 +69,6 @@
 					</div>
 					<span class="text-sm text-gray-500 font-medium">Joined by 100+ Sequoia founders</span>
 				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Social Proof -->
-	<section class="bg-gray-50 py-20 border-y border-gray-100">
-		<div class="max-w-7xl mx-auto px-6 text-center">
-			<p class="text-sm font-bold uppercase tracking-widest text-gray-400 mb-12">Trusted by founders from</p>
-			<div class="flex flex-wrap justify-center gap-x-16 gap-y-10 opacity-40 grayscale">
-				<span class="text-2xl font-bold">Sequoia</span>
-				<span class="text-2xl font-bold">Airbnb</span>
-				<span class="text-2xl font-bold">Y Combinator</span>
-				<span class="text-2xl font-bold">Arc</span>
 			</div>
 		</div>
 	</section>

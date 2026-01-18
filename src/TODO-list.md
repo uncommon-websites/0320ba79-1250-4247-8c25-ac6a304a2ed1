@@ -1,6 +1,7 @@
 <!-- DO NOT EDIT - Managed by todo_list tool -->
-<!-- Updated: 2026-01-16T16:14:52.541Z -->
+<!-- Updated: 2026-01-18T11:44:53.714Z -->
 
 # Current Todo List State
 
-- [x] Update start button color
+- [x] Change hero headline to red
+- [x] Remove the trusted by section
