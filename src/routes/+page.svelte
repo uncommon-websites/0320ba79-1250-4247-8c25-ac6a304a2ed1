@@ -34,7 +34,7 @@
 
 	<!-- Hero -->
 	<section class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
-		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[28px] md:text-[32px] leading-[1.15] tracking-tight font-normal">
+		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[36px] md:text-[48px] leading-[1.15] tracking-tight font-normal">
 			<p>
 				Complete brand systems generated through competitive intelligence and automated design workflows. Built for pre-seed founders who need professional brand assets without the design budget or time delays.
 			</p>
