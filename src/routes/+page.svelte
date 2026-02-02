@@ -34,9 +34,9 @@
 
 	<!-- Hero -->
 	<section class="grid grid-cols-1 md:grid-cols-12 mb-32 md:mb-48">
-		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[36px] md:text-[48px] leading-[1.15] tracking-tight font-normal">
+		<div class="col-span-1 md:col-span-9 md:col-start-4 text-[72px] md:text-[96px] leading-[1.15] tracking-tight font-bold text-red-600">
 			<p>
-				Professional brand systems generated through AI. Built for pre-seed founders.
+				This is amazing
 			</p>
 		</div>
 	</section>
@@ -49,7 +49,7 @@
 				<div class="col-span-1 md:col-span-4 font-normal">
 					Competitive Intelligence
 				</div>
-				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
+				<div class="col-span-1 md:col-span-8 text-red-600 font-bold text-[150px] md:text-[150px]">
 					Automated analysis of your market landscape to generate brand positioning that stands out from competitors.
 				</div>
 			</div>
@@ -61,28 +61,6 @@
 				/>
 				<div class="absolute inset-0 flex items-center justify-center pointer-events-none">
 					<span class="text-white font-bold text-4xl md:text-6xl tracking-wide opacity-90">MARKET ANALYSIS</span>
-				</div>
-			</div>
-		</article>
-
-		<!-- Feature 2 -->
-		<article class="grid grid-cols-1 md:grid-cols-12">
-			<div class="col-span-1 md:col-span-9 md:col-start-4 grid grid-cols-1 md:grid-cols-12 mb-3 text-[15px] gap-y-1 items-baseline">
-				<div class="col-span-1 md:col-span-4 font-normal">
-					Instant Brand Systems
-				</div>
-				<div class="col-span-1 md:col-span-8 text-gray-400 font-normal">
-					Complete brand identity including logos, color palettes, typography, and guidelines—generated in minutes, not weeks.
-				</div>
-			</div>
-			<div class="col-span-1 md:col-span-9 md:col-start-4 w-full aspect-[16/10] bg-gray-900 overflow-hidden relative group cursor-pointer">
-				<img 
-					src="/generated/image-designer-hands-arranging-brand-identity--1769451241293-1.webp" 
-					alt="Brand Design System" 
-					class="w-full h-full object-cover opacity-70 transition-transform duration-700 group-hover:scale-105"
-				/>
-				<div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
-					<span class="text-white font-bold text-5xl md:text-7xl tracking-tight leading-none">BRAND SYSTEM</span>
 				</div>
 			</div>
 		</article>
@@ -112,8 +90,8 @@
 		</article>
 
 		<div class="grid grid-cols-1 md:grid-cols-12 text-[15px]">
-			<div class="col-span-1 md:col-span-2 md:col-start-4">
-				<button class="bg-black text-white px-6 py-3 hover:bg-gray-800 transition-colors">Get started</button>
+			<div class="col-span-1 md:col-span-12">
+				<button class="bg-black text-white px-6 py-3 hover:bg-gray-800 transition-colors w-full">Get started</button>
 			</div>
 		</div>
 	</section>
